@@ -17,11 +17,11 @@ Undergraduate Thesis - Efficient and Accurate Numerical PDE Methods For Pricing 
 ### Teaching
 
 Teaching assistant positions held:
--STA220 - The Practice of Statistics I - Summer 2016
--STA248 - Statistics for Computer Scientists - Winter 2016
--STA261 - Probability and Statistics II - Winter 2016
--STA304 - Surveys, Sampling, and Observational Data - Winter 2016
--STA247 - Probability with Computer Applications - Fall 2015 
+STA220 - The Practice of Statistics I - Summer 2016  
+STA248 - Statistics for Computer Scientists - Winter 2016  
+STA261 - Probability and Statistics II - Winter 2016  
+STA304 - Surveys, Sampling, and Observational Data - Winter 2016  
+STA247 - Probability with Computer Applications - Fall 2015  
 
 ### Contact me
 
