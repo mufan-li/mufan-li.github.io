@@ -10,17 +10,17 @@ I am an incoming PhD student in the [Department of Statistics](http://www.utstat
 
 I intend to pursue research in stochastic optimal control, specifically with applications in finance.
 
-Masters Research Project - Collaborative Filtering For Student Grade Analysis (2016) \[[Document](Mufan_Li_MSc_Report.pdf)\] [Code](https://github.com/mufan-li/sg)
+Masters Research Project - Collaborative Filtering For Student Grade Analysis (2016) \[[Document](Mufan_Li_MSc_Report.pdf)\] \[[Code](https://github.com/mufan-li/sg)\]
 
-Undergraduate Thesis - Efficient and Accurate Numerical PDE Methods For Pricing Financial Derivatives (2015) [Document](Mufan_Li_Undergrad_Thesis.pdf) [Presentation](Mufan_Li_Thesis_Presentation.pdf) [Code](https://github.com/mufan-li/PDE03)
+Undergraduate Thesis - Efficient and Accurate Numerical PDE Methods For Pricing Financial Derivatives (2015) \[[Document](Mufan_Li_Undergrad_Thesis.pdf)\] \[[Presentation](Mufan_Li_Thesis_Presentation.pdf)\] \[[Code](https://github.com/mufan-li/PDE03)\]
 
 ### Teaching
 
-Teaching assistant positions held:
-STA220 - The Practice of Statistics I - Summer 2016
-STA248 - Statistics for Computer Scientists - Winter 2016
-STA261 - Probability and Statistics II - Winter 2016
-STA304 - Surveys, Sampling, and Observational Data - Winter 2016
+Teaching assistant positions held: \s\s
+STA220 - The Practice of Statistics I - Summer 2016 \s\s
+STA248 - Statistics for Computer Scientists - Winter 2016 \s\s
+STA261 - Probability and Statistics II - Winter 2016 \s\s
+STA304 - Surveys, Sampling, and Observational Data - Winter 2016 \s\s
 STA247 - Probability with Computer Applications - Fall 2015
 
 ### Contact me
