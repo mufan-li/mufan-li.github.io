@@ -4,23 +4,28 @@ title: About
 permalink: /about/
 ---
 
-The term “[cocktail](https://en.wikipedia.org/wiki/Cocktail)” as an alcoholic drink was first documented in 1806. Just 15 years before then, the term “[statistic](https://en.wikipedia.org/wiki/History_of_statistics)” was first translated into English in 1791. And by the 1860s, it was common to refer to a mix of orange curaçao, absinthe, and other liqueurs as “[the old-fashioned](https://en.wikipedia.org/wiki/Old_Fashioned)“. Coincidentally, just about another 15 years before this, the first book to have “statistics” in its title was published in 1845. 
+I am a first year PhD student in the [Department of Statistical Sciences](http://www.utstat.utoronto.ca/) at the University of Toronto, and this is my blog for interesting side reading and projects.
 
-Clearly the development of these two wildly different ideas were unrelated to each other. The historical coincidence should not be over interpreted, and neither should the title of this blog. 
+Previously I was a Masters student in the same department, during which I worked with [Prof. Jeffrey Rosenthal](http://probability.ca/jeff/). For my undergraduate degree I studied [Engineering Science](http://engsci.utoronto.ca/) at University of Toronto, majoring in Electrical and Computer Engineering. My undergraduate thesis was supervised by [Prof. Christina Christara](http://www.cs.toronto.edu/~ccc/). You can find my CV [here](CV_Mufan_Li.pdf).
 
-**So if not about cocktails, then what is the blog about?**
+### Research
 
-The blog is intended to explain, research, and experiment with fascinating ideas relating to quantitative finance. This includes experimenting with trading ideas (although not investment advice), and mathematical theory that cannot be directly applied.
+<!-- I intend to pursue research in mathematical finance, specifically with applications in algorithmic trading. -->
 
-More importantly, I will give my best attempt to prepare “[freshman lectures](https://en.wikiquote.org/wiki/Talk:Richard_Feynman#Teaching_quote)“ on all my posts. According to the great Richard Feynman, if I can’t explain my idea to all my readers regardless of background, I probably don’t understand it.
+Masters Research Project - Collaborative Filtering For Student Grade Analysis (2016) \[[Document](Mufan_Li_MSc_Report.pdf)\] \[[Code](https://github.com/mufan-li/sg)\]
 
-**Why old-fashioned you might ask?**
+Undergraduate Thesis - Efficient and Accurate Numerical PDE Methods For Pricing Financial Derivatives (2015) \[[Document](Mufan_Li_Undergrad_Thesis.pdf)\] \[[Presentation](Mufan_Li_Thesis_Presentation.pdf)\] \[[Code](https://github.com/mufan-li/PDE03)\]
 
-It’s an excellent drink.
+<!-- ### Teaching
 
-<!-- In fact, don’t expect the blog posts to necessarily relate. I am a curious graduate student with a wide range of interests. Expect everything from the theories of pure mathematics, to the heuristics in real application. -->
+Teaching assistant positions held:  
+STA220 - The Practice of Statistics I - Summer 2016  
+STA248 - Statistics for Computer Scientists - Winter 2016  
+STA261 - Probability and Statistics II - Winter 2016  
+STA304 - Surveys, Sampling, and Observational Data - Winter 2016  
+STA247 - Probability with Computer Applications - Fall 2015   -->
 
-<!-- ### Contact me
+### Contact me
 
-Email: mufan dot li at mail dot utoronto dot ca -->
+Email: mufan dot li at mail dot utoronto dot ca
 <!-- [email@domain.com](mailto:email@domain.com) -->
