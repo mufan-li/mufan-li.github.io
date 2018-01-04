@@ -17,7 +17,7 @@ Poincar&eacute; inequality have quite different applications.
 In this blog post, I hope to put together some excellent content
 I studied recently, specifically from:
  - *Concentration Inequalities* by Boucheron, Lugosi, and Massart (2013) 
- - *Partial Differential Equations* by Evans (1998)
+ - *Partial Differential Equations* by Evans (2010)
 <!-- - *Functional Analysis, Sobolev Spaces, and Partial Differential Equations*
 by Haim Brezis (2011) -->
 
@@ -400,7 +400,7 @@ for a large subset of
 We should note that 
 the fact we can "convert" between $$\|u\|$$ and $$\|\nabla u\|$$
 is highly useful for studying Sobolev norms.
-We refer curious readers to Evans (1998)
+We refer curious readers to Evans (2010)
 for an excellent chapter on 
 [Sobolev spaces](https://en.wikipedia.org/wiki/Sobolev_space)
 and related inequalities.
@@ -418,6 +418,11 @@ the reader will need to go through all the details carefully!
 
 As this is my first blog post, any constructive feedback or suggestions on 
 future topics will be appreciated!
+
+## References 
+
+ - Boucheron, S., Lugosi, G., & Massart, P. (2013). Concentration inequalities: A nonasymptotic theory of independence. Oxford university press.
+ - Evans, L. C. (2010). Partial differential equations. Providence, R.I.: American Mathematical Society.
 
 
 <!-- This nice inequality is named after the brilliant
