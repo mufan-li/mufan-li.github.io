@@ -15,7 +15,7 @@ on the other hand, the two forms of
 Poincar&eacute; inequality have quite different applications.
 
 In this blog post, I hope to put together some excellent content
-I studied recently, specifically from 
+I studied recently, specifically from:
  - *Concentration Inequalities* by Boucheron, Lugosi, and Massart (2013) 
  - *Partial Differential Equations* by Evans (1998)
 <!-- - *Functional Analysis, Sobolev Spaces, and Partial Differential Equations*
@@ -35,7 +35,7 @@ Let $$\Omega \subset \mathbb{R}^n$$ be open and bounded,
 and let $$f \in C^1_c(\Omega)$$ (differentiable
 with compact support).
 Then there exists a constant $$C$$ that depends only 
-on $$\Omega$$ such that
+on $$\Omega$$ such that:
 
 \\[ \left\lVert f \right\rVert_{L^2(\Omega)} 
     \leq C \lVert \nabla f \rVert_{L^2(\Omega)}
@@ -46,8 +46,13 @@ $$f$$ in domain $$\Omega$$. -->
 
 ---
 
+Quick aside: we say a function $$f$$ has **compact support**
+if the set $$ S = \{ x \in \Omega : f(x) \neq 0 \} $$
+has compact closure. 
+This implies $$f(x) = 0$$ near the boundary.
+
 Observe that the inequality simply bounds 
-the $$L^2$$-norm of a function with the $$L^2$$-norm
+the $$L^2$$-norm of a function in terms of the $$L^2$$-norm
 of its gradient instead.
 Note the compact support here is an important assumption 
 when we are integrating with respect to the Lebesgue measure.
@@ -74,7 +79,7 @@ and by the Cauchy-Schwarz inequality we have
  \\]
 
  Summing over all $$n$$ possible derivatives,
- and integrate over the entire $$\Omega$$ we have 
+ and integrating over $$\Omega$$ we have 
 
  \\[ n \int_\Omega \vert f(x) \vert^2 
     \leq \int_\Omega \sum_{i=1}^n M \int_0^M \left\vert 
@@ -84,8 +89,8 @@ and by the Cauchy-Schwarz inequality we have
  \\]
 
  where in the last step we exchanged the order of integration,
- and observe that the $$L^2$$ norm is a constant. 
- Rewriting the above we have 
+ and used the fact that the $$L^2$$ norm is a constant. 
+ Rewriting the above we get the desired result
 
  \\[ \lVert f \rVert_{L^2(\Omega)}
     \leq \frac{M}{\sqrt{n}} \lVert \nabla f \rVert_{L^2(\Omega)}
@@ -119,6 +124,8 @@ although centering in this case is not an issue
 since $$Var[X] \leq \mathbb{E}X^2$$.
 Secondly due to the measure being a probability measure,
 we have a much smaller constant on the inequality $$C=1$$. 
+In combination, we were also able to drop 
+the compact support assumption.
 
 An immediate consequence is to consider 
 $$f$$ Lipschitz with coefficient $$1$$, 
@@ -127,7 +134,7 @@ then we have
 
 \\[ \text{Var}[f(X)] \leq 1 \\]
 
-In other words, we just found a uniform bound
+In other words, we just found a constant bound
 on the variance for a huge class of random functions!
 In general, we can consider $$f$$ to be a smooth estimator 
 based on a dataset with noise $$X$$. 
@@ -169,8 +176,8 @@ taken from Theorem 3.20 in Boucheron, Lugosi, Massart (2013):
 
 *proof (of Gaussian-Poincar&eacute; Inequality):*
 
-First we observe that a simply application of 
-Efron-Stein inequality can reduce the problem down 
+First we observe that a direct application of 
+the Efron-Stein inequality can reduce the problem down 
 to $$n=1$$, i.e. it is sufficient to show 
 
 \\[ \mathbb{E}^{(i)} \left[ \left( Z - \mathbb{E}^{(i)}Z \right)^2 \right]
@@ -185,7 +192,7 @@ since otherwise we can just take a limit to the original function.
 Here we let $$\epsilon_1,\ldots,\epsilon_n$$ be i.i.d. 
 Rademacher random variables, i.e. 
 $$\mathbb{P}[\epsilon_j = 1] = \mathbb{P}[\epsilon_j = -1] = 
-    \frac{1}{2} \,\forall j \in [n]$$,
+    \frac{1}{2} \,\forall j \in \{ 1,2,\ldots,n \} $$,
 and we define
 
 \\[ S_n = n^{-1/2} \sum_{j=1}^n \epsilon_j \\]
@@ -211,7 +218,7 @@ Let $$ K = \sup_x \vert f''(x) \vert $$, then we have that
     \leq \frac{2}{\sqrt{n}} |f'(S_n)| + \frac{2K}{n}
 \\]
 
-As a result we have 
+which implies 
 
 \\[ \frac{n}{4} \left(
         f\left( S_n + \frac{1-\epsilon_i}{\sqrt{n}} \right)
@@ -272,9 +279,9 @@ such that $$\forall v \in C^1_c(\Omega)$$ we have
 \\]
 
 Note if $$u$$ is a solution to the (original) Poisson's equation, 
-then we have the above equation by 
-[Green's identity](https://en.wikipedia.org/wiki/Green%27s_identities).
-The main tool we will to prove existence and unique is 
+then we have the above weak equation by 
+[Green's identity](https://en.wikipedia.org/wiki/Green%27s_identities). 
+The main tool we will use to prove existence and uniqueness is 
 the following result:
 
 ---
@@ -318,10 +325,13 @@ which corresponds to the following **Sobolev norm**:
         \lVert \nabla u \rVert_{L^2(\Omega)}^2 \right]^{1/2}
 \\]
 
-By considering the space of functions with bounded 
-Sobolev norms, we (almost) have a Hilbert space!
-Here we will assume the space $$H^1(\Omega)$$
-is complete to avoid excessive details.
+By equipping the space $$C^1_c(\Omega)$$
+with the above inner product, 
+we almost have a Hilbert space!
+Here we will simply take the completion of $$C^1_c(\Omega)$$
+with respect to the Sobolev norm, 
+i.e. add all the limit points to the space.
+We call this (completed) Hilbert space $$H_0^1(\Omega)$$.
 
 <!-- At the same time, we should note the form on the right hand side 
 is just a geometric mean of two quantities related 
@@ -332,7 +342,7 @@ This observation will be key to our proof.  -->
 We now turn our attention to 
 $$B(u,v)$$, the bilinear form 
 (fancy term for separately linear in both inputs).
-Then we say $$B$$ to be **continuous** if 
+Then we say $$B$$ is **continuous** if 
 
 \\[ \exists C_1 > 0 : \forall u,v \in H, 
     \vert B(u,v) \vert 
@@ -354,7 +364,7 @@ We say $$B$$ is **coersive** if
 \\]
 
 We notice this is the only non-trivial condition left to check, 
-to prove this we will finally use *Poincar&eacute; inequality*! 
+and to prove this we will finally use *Poincar&eacute; inequality*! 
 Start by rewriting 
 
 \\[ B(u,u) = \int_\Omega \nabla u \cdot \nabla u
@@ -377,13 +387,11 @@ Therefore
 
 And voil&agrave;, we have existence and uniqueness!
 A rigorous and careful reader may notice that $$u$$
-does not necessarily have compact support, 
-therefore we cannot use the simple inequality.
-This is correct - we will have to use more general versions 
-of the Poincar&eacute; inequality for this case; 
-however that will require much more technical details.
-I refer curious readers to Evans (1998) 
-for an excellent chapter on Sobolev spaces and related inequalities.
+does not necessarily have compact support -
+this is correct. 
+However every $$u \in H_0^1(\Omega)$$ 
+is a limit of compactly supported functions, 
+therefore we just need to take a limit to get our result!
 
 **Remark** In fact, we can use similar Lax-Milgram 
 based methods to show existence and uniqueness 
@@ -392,6 +400,10 @@ for a large subset of
 We should note that 
 the fact we can "convert" between $$\|u\|$$ and $$\|\nabla u\|$$
 is highly useful for studying Sobolev norms.
+We refer curious readers to Evans (1998)
+for an excellent chapter on 
+[Sobolev spaces](https://en.wikipedia.org/wiki/Sobolev_space)
+and related inequalities.
 
 ## Final Words
 
@@ -400,9 +412,12 @@ probably because it's always surprising,
 and surprises are intriguing in math! 
 I hope to have to presented a readable introduction 
 to the inequality and its applications in both topics, 
-without drowning readers in technical jargon and details. 
-At this point I welcome any constructive feedback or suggestions on 
-future topics!
+without drowning readers in technical details. 
+On this note, I should remark that to study Sobolev spaces rigorously,
+the reader will need to go through all the details carefully!
+
+As this is my first blog post, any constructive feedback or suggestions on 
+future topics will be appreciated!
 
 
 <!-- This nice inequality is named after the brilliant
