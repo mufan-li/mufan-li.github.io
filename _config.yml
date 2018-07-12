@@ -19,15 +19,15 @@ avatar: https://raw.githubusercontent.com/mufan-li/mufan-li.github.io/master/Pro
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: 
+  email: mufan.li@mail.utoronto.ca
   facebook:
   flickr:
   github: mufan-li
-  instagram:
+  instagram: mufan.li
   linkedin: mufan-bill-li-35749833
   pinterest:
-  rss: test # just type anything here for a working RSS icon
-  twitter: 
+  rss: # just type anything here for a working RSS icon
+  twitter: mufan_li
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/

@@ -4,13 +4,14 @@ title: About
 permalink: /about/
 ---
 
-I am a first year PhD student in the [Department of Statistical Sciences](http://www.utstat.utoronto.ca/) at the University of Toronto, and this is my blog for interesting side reading and projects.
+I am a PhD student in the [Department of Statistical Sciences](http://www.utstat.utoronto.ca/) at the University of Toronto, and this is my blog for interesting side reading and projects.
 
 Previously I was a Masters student in the same department, during which I worked with [Prof. Jeffrey Rosenthal](http://probability.ca/jeff/). For my undergraduate degree I studied [Engineering Science](http://engsci.utoronto.ca/) at University of Toronto, majoring in Electrical and Computer Engineering. My undergraduate thesis was supervised by [Prof. Christina Christara](http://www.cs.toronto.edu/~ccc/). You can find my CV [here](CV_Mufan_Li.pdf).
 
 ### Research
 
-<!-- I intend to pursue research in mathematical finance, specifically with applications in algorithmic trading. -->
+I am currently pursuing research in statistical learning theory, 
+in particular applying techniques of probability theory and PDEs.
 
 Masters Research Project - Collaborative Filtering For Student Grade Analysis (2016) \[[Document](Mufan_Li_MSc_Report.pdf)\] \[[Code](https://github.com/mufan-li/sg)\]
 
