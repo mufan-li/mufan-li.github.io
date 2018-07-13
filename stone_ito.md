@@ -24,8 +24,9 @@ hence difficult to develop intuition,
 especially for the first time reader.
 
 With this motivation in mind, 
-it was quite pleasant to discover Jason Miller's 
-[lecture notes](http://statslab.cam.ac.uk/~jpm205/teaching/lent2016/index.html), 
+it was quite pleasant to discover a set of excellent 
+[lecture notes](http://statslab.cam.ac.uk/~jpm205/teaching/lent2016/lecture_notes.pdf)
+by Jason Miller (2016), 
 which contained an alternative proof 
 built on the idea of 
 [Stone-Weierstrass Theorem](https://en.wikipedia.org/wiki/Stone%E2%80%93Weierstrass_theorem). 
@@ -216,7 +217,7 @@ Then we have
 ---
 
 Here we will sketch the proof from 
-Karatzas and Shreve.
+Karatzas and Shreve (1991).
 
 *proof sketch:*
 We start by defining a stopping time 
@@ -573,7 +574,7 @@ for this section we shall leave out the technical details,
 and only sketch the technique on a high level.
 In fact the complete proofs for this section 
 are much more difficult,
-therefore we direct the rigorous reader to Dudley.
+therefore we direct the rigorous reader to Dudley (2002).
 
 Suppose we are interested in proving the following 
 well known theorem in probability theory. 
@@ -769,7 +770,23 @@ the It&ocirc;-Doeblin Lemma.
 For the interested readers, 
 I would strongly recommend an excellent 
 [commentary](https://link.springer.com/article/10.1007/s780-002-8399-0) 
-by Bernard Bru and Marc Yor for further details on this topic.
+by Bernard Bru and Marc Yor (2002) 
+for further details on this topic.
+
+
+## References
+
+ - Bru, B. & Yor, M. (2002). Comments on the life and mathematical legacy of Wolfgang Doeblin.. Finance and Stochastics, 6, 3-47. 
+ - Dudley, R.M. (2002). Real Analysis and Probability. Cambridge University Press
+ - Karatzas, I. & Shreve, S.E. (1991). Brownian Motion and Stochastic Calculus. Springer New York
+ - Miller, J. (2016). Stochastic Calculus, Lent 2016 Lecture Notes. Retrieved from http://statslab.cam.ac.uk/~jpm205/teaching/lent2016/lecture_notes.pdf
+
+
+
+
+
+
+
 
 
 
