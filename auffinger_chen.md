@@ -38,7 +38,7 @@ that the spin configurations $$\sigma$$ determines
 the energy of a system based on random interactions
 $$g_{i_1,\ldots,i_p}$$. 
 
-The problem of interest is to study the limit of 
+The object of interest is the limit of 
 a discrete optimization problem 
 through a continuous relaxation
 
@@ -52,18 +52,20 @@ through a continuous relaxation
 where $$\beta>0$$ is the inverse temperature. 
 
 One amazing result which we will not do enough justice for is 
-the Parisi formula, which gave a variational formula of 
-the right hand side limit. 
+the Parisi formula, which gave a variational formula for 
+the limit on the right hand side. 
 For this, we will need to introduce several definitions first. 
-Let us consider an integer $$r\geq 1$$, 
-we will define 
+Let us consider an integer $$r \geq 1$$, 
+and define 
 
 \\[ 0 < \zeta_0 < \cdots < \zeta_{r-1} < 1, \quad
-    0 = q_0 < q_1 < \cdots < q_r = 1,
+    0 = q_0 < q_1 < \cdots < q_r = 1.
 \\]
 
-and observe that these can be identified with a distribution 
-$$\zeta(\{q_p\}) = \zeta_p - \zeta_{p-1}$$.
+Observe that these values can be identified with 
+a discrete probability measure, 
+in particular a cumulative distribution function 
+$$\zeta(t) = \zeta_p$$ for all $$t \in [q_p, q_{p+1})$$.
 
 Let $$(\eta_p)_{0 \leq p \leq r}$$ be i.i.d. standard Gaussians, 
 $$\xi(x) := \sum_{p\geq 1} \beta_p^2 x^p$$, 
@@ -156,7 +158,7 @@ and [parabolic PDEs](https://en.wikipedia.org/wiki/Parabolic_partial_differentia
 However we will not explore these in detail, 
 as the proof requires a different representation. 
 We will leave the main representation result for the next section, 
-instead we first translate the original quantities into a PDE description.
+instead we first translate the original quantities using a PDE description.
 
 We start this section by defining a function 
 $$\Phi(t,x)$$ as follows. 
@@ -253,6 +255,9 @@ then we have the following formula
 *proof (of the Parisi PDE):*
 We will directly compute both sides, 
 and show they are equal using Gaussian integration by parts. 
+The exact computation details are not particularly important, 
+however the readers are recommended a quick skim 
+to verify the proof is indeed simple. 
 
 We begin by taking $$\zeta$$ to be discrete distribution, 
 and fixing some $$t \in [q_p, q_{p+1})$$. 
@@ -444,8 +449,8 @@ $$
 
 
 **Remark** Before we begin the proof, 
-we will observe $$\Phi(0,x)$$'s convexity directly follow from 
-this representation. 
+we will observe that $$\Phi(0,x)$$'s convexity 
+**follows directly from this representation**. 
 Firstly both integral terms containing $$\zeta$$ are linear in $$\zeta$$. 
 Since $$\Phi(1,x) = \log \cosh (x)$$ is convex in $$x$$, 
 we have the $$\Phi$$ term is convex in $$\zeta$$. 
@@ -459,7 +464,7 @@ it is sufficient to have $$\partial_x \Phi(s, x)$$
 be Lipschitz in $$x$$. 
 We will omit the proof of these results 
 as they are not important to the main goal of this blog post. 
-Instead we will state the following Lemma containing the desired results.
+Instead we will state the following Lemma containing the desired estimates.
 
 ---
 
@@ -474,11 +479,14 @@ $$
 ---
 
 *proof (of the Auffinger-Chen representation):*
+The proof will be a straight forward application of It&ocirc;'s Lemma, 
+and the results follow almost directly from invoking the Parisi PDE. 
+
 We start with discrete $$\zeta$$. 
 Let $$u \in \mathcal{D}$$, and define 
 
 $$ dX_s := \sigma^2(s) \, \zeta(s) \, u_s \, ds
-    + \sigma(s) dW_s, 
+    + \sigma(s) \, dW_s, 
     \quad X_0 = 0,
 $$
 
@@ -520,14 +528,14 @@ $$\begin{align}
     \right] ds
     + \sigma(s) \, \partial_x \Phi \, dW_s \\
     &= \left[ \frac{1}{2} \sigma^2(s) \, \zeta(s) \, u_s^2
-        - \frac{1}{2} \sigma^2(s) \, \zeta(s)
+        - \frac{1}{2} \sigma^2(s) \, \zeta(s) \,
             (u_s - \partial_x \Phi )^2
         \right] ds
         + \sigma(s) \, \partial_x \Phi \, dW_s.
 \end{align}$$
 
 Next we write this equation as an integral over $$[0,1]$$,
-and taking expectation to remove the martingale term 
+and taking expectation to remove the martingale term we get
 
 $$\begin{align}
 \mathbb{E} \Phi(1, x + X_1) - \Phi(0,x)
@@ -563,10 +571,12 @@ $$\tag*{$\Box$}$$
 
 While at this point, the author believes the goal of 
 the blog post is already achieved: 
-we have demonstrated a simple proof technique using 
+we have demonstrated the key technique with  
 only very basic manipulations. 
 That being said, to complete the spin glass story, 
-we will provide a short sketch on how to prove strict convexity. 
+we will provide a short sketch on how to prove strict convexity - 
+hence proving there is a unique minimizer of 
+the Parisi functional $$\mathcal{P}$$.
 
 We once again start by stating a key technical lemma.
 
@@ -574,7 +584,7 @@ We once again start by stating a key technical lemma.
 
 **Lemma (Strict Convexity in $$x$$)**
 For all $$\zeta$$ a probability distribution on $$[0,1]$$, 
-we have 
+and for all $$s \in [0,1]$$, we have 
 
 $$ \partial_{xx} \Phi(s,x) > 0.
 $$
@@ -586,7 +596,7 @@ does not directly imply strict convexity in $$\zeta$$.
 Now there are many ways to prove this result, 
 the author speculates the simplest proof should follow directly 
 from a Hopf-Cole transform into a linear heat equation, 
-using the fact that the heat equation preserves strict convexity
+and using the fact that the heat equation preserves strict convexity
 of the initial condition.
 
 Next we will introduce quantities related to convexity.
@@ -625,15 +635,15 @@ $$
 almost surely.
 Using the Auffinger-Chen representation, we have that 
 $$A_i \leq \Phi_{\zeta_i}(0,x)$$. 
-Therefore to prove the inequality is strict, 
+Therefore to prove the convexity is strict, 
 it is sufficient to prove a gap in the first inequality, 
-which is equivalent to proving that 
+which is equivalent to saying that 
 
 $$ Z := \int_0^1 \sigma^2(s) \, (\zeta_1(s) - \zeta_2(s)) \, u_s \, ds
 $$
 
 has positive variance.
-Rewriting the variance as 
+The variance can be computed as  
 
 $$ \text{Var}(Z) = \int_0^1 \int_0^1 \varphi(s) \, \varphi(t)
     \, \text{Cov}(u_s, u_t) \, ds dt,
@@ -644,7 +654,7 @@ where $$\varphi(s) = \sigma^2(s) \, (\zeta_1(s) - \zeta_2(s))$$.
 While we omit the technical details, 
 it's not hard to believe $$u_s = \partial_x \Phi(s, x + X_s)$$
 satisfy the following SDE
-(from Ito's Lemma and differentiating the Parisi PDE)
+(from It&ocirc;'s Lemma and differentiating the Parisi PDE)
 
 $$ du_s = \sigma(s) \partial_{xx} \Phi(s, x + X_s) dW_s.
 $$
@@ -654,12 +664,14 @@ we can compute $$\text{Cov}(u_s, u_t)$$ as
 
 $$ \text{Cov}(u_s, u_t) = \text{Var}(u_{s \wedge t})
     = \int_0^{s \wedge t} \sigma^2(v) \mathbb{E} 
-        (\partial_{xx} \Phi(v, x + X_v))^2 dv.
+        (\partial_{xx} \Phi(v, x + X_v))^2 dv,
 $$
 
-Defining $$\tau(s) = \text{Var}(u_s)$$, 
+where the last step followed from 
+[It&ocirc;'s Isometry](https://en.wikipedia.org/wiki/It%C3%B4_isometry).
+Defining $$\tau(s) := \text{Var}(u_s)$$, 
 we can also write $$\text{Cov}(u_s, u_t) = \tau(s) \wedge \tau(t)$$.
-After a bit of algebra we can derive
+With a bit of algebra we can derive
 
 $$ \text{Var}(Z) = \int_0^1 \left( \int_v^1 \varphi(s) ds \right)^2
     \tau'(v) dv.
@@ -684,11 +696,15 @@ which is surprising for an originally difficult problem.
 The author would also like to point to a more general 
 variational stochastic representation by 
 [Bou&eacute; and Dupuis (1998)](https://projecteuclid.org/euclid.aop/1022855876), 
-where perhaps more useful to other applications. 
+perhaps more useful for other applications. 
 
-Finally the author would attribute the source of this post's material 
-to an excellence graduate course on spin glass taught by Dmitry Panchenko, 
+Finally the post would not be possible without attending 
+an excellent graduate course on spin glass taught by Dmitry Panchenko, 
 where he has done a much better job explaining this topic. 
+The author also highly recommends his 
+[notes on probability theory](https://sites.google.com/site/panchenkomath/lecture-notes), 
+which has been in general very helpful to the author's 
+studies and research. 
 
 
 
