@@ -398,13 +398,13 @@ the desired result follows from the fact $$\partial_{xx} \Phi > 0$$.
 
 ## Final Comments
 
-Recall the definition of $$\mathcal{P}(\zeta)$$, 
-we have shown that while the recursive structure is complicated, 
-it led us to reformulate the problem as a PDE, 
-and finally solving it using a stochastic representation. 
+Recall the original problem of $$\inf_\zeta \Phi_\zeta(0,x)$$. 
+We have shown that while the dependence structure is unclear, 
+we are able to prove its convexity with it easily 
+using a stochastic representation. 
 The author would like to point out that 
-most techniques used here are quite straight forward, 
-which is surprising for an originally difficult problem. 
+most techniques used here are quite basic, 
+which is surprising for an originally very difficult problem. 
 
 The author would also like to point to a more general 
 variational stochastic representation by 
