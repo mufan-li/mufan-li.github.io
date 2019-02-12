@@ -245,36 +245,36 @@ Here we remind the reader that strict convexity in $$x$$ does not directly imply
 
 *sketch (of Lemma):* Since $$\Phi(t,x)$$ is continuous in $$\zeta$$, we will only consider a discrete $$\zeta$$. Then using an appropriate time change and time reversal, we can get a new PDE 
 
-$$ \partial_t \Phi = \frac{1}{2 \widehat\zeta(t)} \partial_{xx} \Phi
+$$ \partial_t \Phi = \frac{1}{2 \widehat \zeta(t)} \partial_{xx} \Phi
     + \frac{1}{2} (\partial_x \Phi)^2, 
 $$
 
 with **initial conditions** (as opposed to terminal conditions) 
-$$\Phi(0,x)=\log \cosh(x)$$, and $$\widehat \zeta(t)$$ is some appropriate new function after time reversal. 
+$$\Phi(0,x)=\log \cosh(x)$$, and $$\widehat \zeta(t) = \zeta(1 - t)$$ changed due to time reversal. 
 To simplify the PDE, we use the Hopf-Cole transformation to substitute 
 $$\phi = \exp\left( \frac{\Phi}{\widehat\zeta(t)} \right) $$, which leads to the simplified linear PDE 
 
-$$ \partial_t \phi = \frac{1}{2 \widehat\zeta(t)} \partial_{xx} \phi, 
+$$ \partial_t \phi = \frac{1}{2 \widehat \zeta(t)} \partial_{xx} \phi, 
 $$
 
-with initial conditions $$\phi(0,x) = \frac{1}{\widehat\zeta(t)} \log \exp\left( \frac{\log \cosh(x)}{\zeta(t)} \right) = \cosh(x)^{1/\zeta(t)}$$. Using another time change, we can also remove the $$\zeta(t)$$ above. 
+with initial conditions $$\phi(0,x) = \frac{1}{\widehat\zeta(t)} \log \exp\left( \frac{\log \cosh(x)}{\widehat \zeta(t)} \right) = \cosh(x)^{1/\widehat \zeta(t)}$$. Using another time change, we can also remove the $$\widehat \zeta(t)$$ above. 
 
 Here we can use any of the reader's favourite method: the [Feynman-Kac Representation](https://en.wikipedia.org/wiki/Feynman%E2%80%93Kac_formula), the [Kolmogorov backward equation](https://en.wikipedia.org/wiki/Kolmogorov_backward_equations_(diffusion)), or the [heat kernel](https://en.wikipedia.org/wiki/Heat_kernel) to write 
 
-$$ \phi(t,x) = \mathbb{E} \cosh( x + W_t )^{1/\zeta(t)}, 
+$$ \phi(t,x) = \mathbb{E} \cosh( x + W_t )^{1/\widehat \zeta(t)}, 
 $$
 
-where $$W_t$$ is a standard Brownian motion, and $$\zeta$$ is constant in $$[0,t)$$. At this point it is sufficient to show strict convexity for this $$t$$, since we can piece together the constant intervals later. To this end, we will write 
+where $$W_t$$ is a standard Brownian motion, and $$\widehat \zeta$$ is constant in $$[0,t)$$. At this point it is sufficient to show strict convexity for this $$t$$, since we can piece together the constant intervals later. To this end, we will write 
 
-$$ \Phi(t,x) = \frac{1}{\zeta(t)} \log \mathbb{E} \cosh(x + W_t)^{1/\zeta(t)},
+$$ \Phi(t,x) = \frac{1}{\widehat \zeta(t)} \log \mathbb{E} \cosh(x + W_t)^{1/\widehat \zeta(t)},
 $$
 
 and define 
 
 $$ \langle f(W_t) \rangle := \frac{
-    \mathbb{E} f(W_t) \cosh(x + W_t)^{1/\zeta(t)}
+    \mathbb{E} f(W_t) \cosh(x + W_t)^{1/\widehat \zeta(t)}
 }{
-    \mathbb{E} \cosh(x + W_t)^{1/\zeta(t)}
+    \mathbb{E} \cosh(x + W_t)^{1/\widehat \zeta(t)}
 } \, ,
 $$
 
@@ -285,16 +285,16 @@ With this we can take the second derivative of $$\Phi$$ to get
 $$ 
 \begin{align}
     \partial_{xx} \Phi(t,x) &= 
-    \frac{-1}{\zeta(t)} \left\langle 
-        \frac{1}{\zeta(t)} \tanh(x + W_t)
+    \frac{-1}{\widehat \zeta(t)} \left\langle 
+        \frac{1}{\widehat \zeta(t)} \tanh(x + W_t)
         \right\rangle^2 \\
         & \quad+ 
-        \frac{1}{\zeta(t)}
-        \left\langle \left( \frac{1}{\zeta(t)} \tanh(x + W_t) \right)^2
-        + \frac{1}{\zeta(t)} \left( 1 - \tanh(x + W_t)^2 \right)
+        \frac{1}{\widehat \zeta(t)}
+        \left\langle \left( \frac{1}{\widehat \zeta(t)} \tanh(x + W_t) \right)^2
+        + \frac{1}{\widehat \zeta(t)} \left( 1 - \tanh(x + W_t)^2 \right)
         \right\rangle  \\
-        &\geq \frac{1}{\zeta(t)}
-        \left\langle \frac{1}{\zeta(t)} \left( 1 - \tanh(x + W_t)^2 \right)
+        &\geq \frac{1}{\widehat \zeta(t)}
+        \left\langle \frac{1}{\widehat \zeta(t)} \left( 1 - \tanh(x + W_t)^2 \right)
         \right\rangle \\
         &> 0 \, ,
 \end{align}
@@ -303,10 +303,10 @@ $$
 where we used Jensen's inequality and the fact that $$\tanh(x)^2 < 1$$.
 
 <!-- 
-Observe that since $$\zeta(t) \in [0,1]$$, the second term in the square brackets $$[\cdots]$$ are always greater than 1. Then we can use Jensen's inequality to write 
+Observe that since $$\widehat \zeta(t) \in [0,1]$$, the second term in the square brackets $$[\cdots]$$ are always greater than 1. Then we can use Jensen's inequality to write 
 
 $$ \partial_{xx} \Phi(t,x) \geq 
-    \frac{1}{\zeta(t)} \mathbb{E} \frac{1}{\zeta(t)} \log \cosh (x + W_t).
+    \frac{1}{\widehat \zeta(t)} \mathbb{E} \frac{1}{\widehat \zeta(t)} \log \cosh (x + W_t).
 $$
 
 Since $$\log \cosh(x) > 0$$ unless $$x = 0$$, we have the right hand side must be strictly positive, hence implying $$\partial_{xx}\Phi(t,x) > 0$$.
