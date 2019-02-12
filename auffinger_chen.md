@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Drastically Simplifying Stochastic Representation in a Spin Glass Problem
+title: The Amazing Auffinger-Chen Representation
 comments: true
 ---
 
@@ -42,7 +42,7 @@ where we are minimizing over the set of all CDFs on $$[0,1]$$ for each $$x \in \
 
 **Question** Does there exist a unique minimizer to the optimization problem $$\inf_{\zeta} \Phi_\zeta(0,x)$$?
 
-The main difficulty comes from the dependence on $$\zeta$$ is unclear, even if we can write down a closed form solution to the Parisi PDE. At the very least, it would be extremely unpleasant and tedious to work with. Additionally, we remark that the problem is already stated in a simplified form, as opposed to the original framing in spin-glass. 
+The main difficulty comes from the unclear dependence on $$\zeta$$, even if we can write down a closed form solution to the Parisi PDE. At the very least, it would be extremely unpleasant and tedious to work with. Additionally, we remark that the problem is already stated in a simplified form, as opposed to the original framing in spin-glass. 
 
 Before we jump into the main results, we observe that existence of a minimizer is straight forward to prove. Since we are restricted to the domain $$[0,1]$$, any sequence of probability measures is [tight](https://en.wikipedia.org/wiki/Tightness_of_measures). It is then sufficient to consider any minimizing sequence of probability measures $$\{\zeta_n\}$$, and tightness implies there exist a converging subsequence such that $$\zeta_{n_k} \to \zeta^*$$ weakly, which is a minimizer of $$\Phi(0,x)$$.
 
@@ -55,9 +55,7 @@ Before we jump into the main results, we observe that existence of a minimizer i
 
 ## The Auffinger-Chen Representation 
 
-To complete the proof, it is sufficient to show $$\Phi(0,x)$$ is strictly convex in $$\zeta$$. In this section, we will use the main representation result to show convexity, and provide a sketch for strictness in the next section. 
-
-Readers unfamiliar with stochastic analysis can find a brief introduction in a [previous blog post](https://mufan-li.github.io/stone_ito/), in particular we will use [It&ocirc;'s Lemma](https://en.wikipedia.org/wiki/It%C3%B4%27s_lemma) in the upcoming proofs.
+To complete the proof, it is sufficient to show $$\Phi(0,x)$$ is strictly convex in $$\zeta$$. In this section, we will use a stochastic representation to show convexity, which is the main difficulty of the problem. Readers unfamiliar with stochastic analysis can find a brief introduction in a [previous blog post](https://mufan-li.github.io/stone_ito/), in particular we will use [It&ocirc;'s Lemma](https://en.wikipedia.org/wiki/It%C3%B4%27s_lemma) in the upcoming proofs.
 
 We start by defining $$B_t := W_{\xi'(t)}$$, where $$\{W_t\}$$ is a standard Brownian motion. Let $$\{\mathcal{F}_t\}_{t\geq 0}$$ be $$\{W_t\}$$'s canonical filtration, and then we define a collection of processes
 
@@ -271,22 +269,39 @@ where $$W_t$$ is a standard Brownian motion, and $$\zeta$$ is constant in $$[0,t
 $$ \Phi(t,x) = \frac{1}{\zeta(t)} \log \mathbb{E} \cosh(x + W_t)^{1/\zeta(t)},
 $$
 
-and compute the second derivative to get
+and define 
+
+$$ \langle f(W_t) \rangle := \frac{
+    \mathbb{E} f(W_t) \cosh(x + W_t)^{1/\zeta(t)}
+}{
+    \mathbb{E} \cosh(x + W_t)^{1/\zeta(t)}
+} \, ,
+$$
+
+where we observe since $$\cosh(x) > 0$$ and $$\mathbb{E}\cosh(x + W_t) < \infty$$, we have that $$\langle \cdot \rangle$$ defines a new probability measure. In particular, we have Jensen's inequality.
+
+With this we can take the second derivative of $$\Phi$$ to get
 
 $$ 
 \begin{align}
     \partial_{xx} \Phi(t,x) &= 
-    \frac{1}{\zeta(t)} \log \mathbb{E} \bigg\{
-        \exp\left( \frac{1}{\zeta(t)} \log \cosh(x + W_t)
-        \right) \\
-        & \qquad \qquad \quad \cdot 
-        \left[ \left( \frac{1}{\zeta(t)} \tanh(x + W_t) \right)^2
+    \frac{-1}{\zeta(t)} \left\langle 
+        \frac{1}{\zeta(t)} \tanh(x + W_t)
+        \right\rangle^2 \\
+        & \quad+ 
+        \frac{1}{\zeta(t)}
+        \left\langle \left( \frac{1}{\zeta(t)} \tanh(x + W_t) \right)^2
         + \frac{1}{\zeta(t)} \left( 1 - \tanh(x + W_t)^2 \right)
-        \right]
-        \bigg\}.
+        \right\rangle  \\
+        &\geq \frac{1}{\zeta(t)}
+        \left\langle \frac{1}{\zeta(t)} \left( 1 - \tanh(x + W_t)^2 \right)
+        \right\rangle \\
+        &> 0 \, ,
 \end{align}
 $$
 
+where we used Jensen's inequality and the fact that $$\tanh(x)^2 < 1$$.
+<!-- 
 Observe that since $$\zeta(t) \in [0,1]$$, the second term in the square brackets $$[\cdots]$$ are always greater than 1. Then we can use Jensen's inequality to write 
 
 $$ \partial_{xx} \Phi(t,x) \geq 
@@ -294,7 +309,7 @@ $$ \partial_{xx} \Phi(t,x) \geq
 $$
 
 Since $$\log \cosh(x) > 0$$ unless $$x = 0$$, we have the right hand side must be strictly positive, hence implying $$\partial_{xx}\Phi(t,x) > 0$$.
-
+ -->
 
 
 
