@@ -301,6 +301,7 @@ $$
 $$
 
 where we used Jensen's inequality and the fact that $$\tanh(x)^2 < 1$$.
+
 <!-- 
 Observe that since $$\zeta(t) \in [0,1]$$, the second term in the square brackets $$[\cdots]$$ are always greater than 1. Then we can use Jensen's inequality to write 
 
