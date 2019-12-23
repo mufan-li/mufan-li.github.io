@@ -64,7 +64,7 @@ For simplicity of notation, we will write $$\sigma(t) = \sqrt{\xi''(t)}$$ for th
 **Theorem (Auffinger-Chen Representation)**
 For all $$\zeta$$ a probability distribution on $$[0,1]$$, we have the following 
 
-$$\begin{equation}
+$$
 \begin{aligned}
     \Phi(0,x) = \max_{u \in \mathcal{D}} \bigg[
         \mathbb{E} & \Phi\left(1, 
@@ -75,7 +75,7 @@ $$\begin{equation}
         \mathbb{E} u_s^2  \, ds
     \bigg].
 \end{aligned}
-\end{equation}$$
+$$
 
 In particular, we have the maximizer is unique, and is given by $$u_s = \partial_x \Phi(s, x + X_s)$$, where $$X_s$$ is the strong solution of the following stochastic differential equation (SDE)
 
