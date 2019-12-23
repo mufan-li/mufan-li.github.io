@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Connected by Poincar&eacute; Inequality
-comments: true
 ---
 
 While studying two seemingly irrelevant subjects, 

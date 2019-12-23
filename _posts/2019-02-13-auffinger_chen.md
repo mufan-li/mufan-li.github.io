@@ -1,7 +1,5 @@
 ---
-layout: post
 title: The Auffinger-Chen Representation
-comments: true
 ---
 
 Equivalent representation results contribute not only a connection between different concepts, but also a new set of proof techniques. Indeed, [stochastic analysis](https://en.wikipedia.org/wiki/Stochastic_calculus) has offered a number of alternative proofs to many problems. Occasionally the proof can simplify drastically. In this post, we will discuss a particularly elegant application by Auffinger and Chen (2015), for an otherwise very difficult problem in spin glass. 

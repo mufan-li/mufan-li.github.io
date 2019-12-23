@@ -9,8 +9,8 @@
 locale                   : "en-US"
 title                    : "Mufan (Bill) Li"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Mufan (Bill) Li"
+description              : &description ""
 url                      : https://mufan-li.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mufan-li/mufan-li.github.io"
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : ""
   avatar           : "Profile.jpg"
   bio              : # "Your biography for the left-hand sidebar"
   location         : # "Location"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : # "http://yourfullgooglescholarurl.com"
-  email            :
+  email            : mufan.li@mail.utoronto.ca
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -99,10 +99,10 @@ author:
   github           : "mufan-li"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "mufan.li"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/mufan-bill-li-35749833/"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
