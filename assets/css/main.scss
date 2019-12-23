@@ -10,10 +10,10 @@
  *
 */
 
-@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "breakpoint/breakpoint"; // media query mixins
 @import "variables";
 @import "mixins";
-@import "vendor/susy/susy";
+@import "susy/susy";
 
 @import "reset";
 @import "base";
@@ -34,8 +34,8 @@
 @import "archive";
 @import "sidebar";
 
-@import "vendor/font-awesome/fontawesome";
-@import "vendor/font-awesome/solid";
-@import "vendor/font-awesome/brands";
-@import "vendor/magnific-popup/magnific-popup";
+@import "font-awesome/fontawesome";
+@import "font-awesome/solid";
+@import "font-awesome/brands";
+@import "magnific-popup/magnific-popup";
 @import "print";
