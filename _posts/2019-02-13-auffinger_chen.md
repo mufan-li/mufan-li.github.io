@@ -66,8 +66,7 @@ For simplicity of notation, we will write $$\sigma(t) = \sqrt{\xi''(t)}$$ for th
 For all $$\zeta$$ a probability distribution on $$[0,1]$$, we have the following 
 
 $$
-\begin{equation}
-\begin{aligned}
+\begin{gather}
     \Phi(0,x) = \max_{u \in \mathcal{D}} \bigg[
         \mathbb{E} & \Phi\left(1, 
         x + \int_0^1 \sigma^2(s) \, \zeta(s) \, u_s \, ds
@@ -76,23 +75,7 @@ $$
         &- \frac{1}{2} \int_0^1 \sigma^2(s) \, \zeta(s) \,
         \mathbb{E} u_s^2  \, ds
     \bigg].
-\end{aligned}
-\end{equation}
-$$
-
-$$
-\begin{equation}
-\begin{split}
-    \Phi(0,x) = \max_{u \in \mathcal{D}} \bigg[
-        \mathbb{E} & \Phi\left(1, 
-        x + \int_0^1 \sigma^2(s) \, \zeta(s) \, u_s \, ds
-        + \int_0^1 \sigma(s) \, dW_s
-    \right) \\
-        &- \frac{1}{2} \int_0^1 \sigma^2(s) \, \zeta(s) \,
-        \mathbb{E} u_s^2  \, ds
-    \bigg].
-\end{split}
-\end{equation}
+\end{gather}
 $$
 
 In particular, we have the maximizer is unique, and is given by $$u_s = \partial_x \Phi(s, x + X_s)$$, where $$X_s$$ is the strong solution of the following stochastic differential equation (SDE)
