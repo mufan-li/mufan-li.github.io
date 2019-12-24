@@ -12,19 +12,28 @@ I am a PhD student in the [Department of Statistical Sciences](http://www.utstat
 and the [Vector Institute](https://vectorinstitute.ai/). 
 My academic advisor is [Prof. Daniel Roy](http://danroy.org/).
 
+In March and April 2020, I will be visiting the Institute for Advanced Study in Princeton, NJ, as part of the Special Year on Optimization, Statistics, and Theoretical Machine Learning.
+
 Previously I was a Masters student in the same department, during which I worked with [Prof. Jeffrey Rosenthal](http://probability.ca/jeff/). For my undergraduate degree I studied [Engineering Science](http://engsci.utoronto.ca/) at University of Toronto, majoring in Electrical and Computer Engineering. My undergraduate thesis was supervised by [Prof. Christina Christara](http://www.cs.toronto.edu/~ccc/). You can find my CV [here](files/CV_Mufan_Li.pdf).
 
-### Research
+# Research
 
 I am currently pursuing research in statistical learning theory, 
 in particular applying techniques of probability theory, 
 stochastic analysis, and partial differential equations.
 
+You can find a list of my research [here](https://mufan-li.github.io/research/).
 
+# Blog
 
-Masters Research Project - Collaborative Filtering For Student Grade Analysis (2016) \[[Document](files/Mufan_Li_MSc_Report.pdf)\] \[[Code](https://github.com/mufan-li/sg)\]
+I attempt to maintain a blog of interesting mathematics I encouter, 
+but does not necessarily fit into my research program. 
+You can find the current list of my blog posts 
+[here](https://mufan-li.github.io/blog-posts/). 
 
-Undergraduate Thesis - Efficient and Accurate Numerical PDE Methods For Pricing Financial Derivatives (2015) \[[Document](files/Mufan_Li_Undergrad_Thesis.pdf)\] \[[Presentation](files/Mufan_Li_Thesis_Presentation.pdf)\] \[[Code](https://github.com/mufan-li/PDE03)\]
+<!-- Masters Research Project - Collaborative Filtering For Student Grade Analysis (2016) \[[Document](files/Mufan_Li_MSc_Report.pdf)\] \[[Code](https://github.com/mufan-li/sg)\]
+
+Undergraduate Thesis - Efficient and Accurate Numerical PDE Methods For Pricing Financial Derivatives (2015) \[[Document](files/Mufan_Li_Undergrad_Thesis.pdf)\] \[[Presentation](files/Mufan_Li_Thesis_Presentation.pdf)\] \[[Code](https://github.com/mufan-li/PDE03)\] -->
 
 <!-- ### Teaching
 
