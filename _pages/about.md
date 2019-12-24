@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in the [Department of Statistical Sciences](http://www.utstat.utoronto.ca/) at the University of Toronto. 
+I am a PhD student in the [Department of Statistical Sciences](http://www.utstat.utoronto.ca/) at the University of Toronto 
+and the [Vector Institute](https://vectorinstitute.ai/). 
 My academic advisor is [Prof. Daniel Roy](http://danroy.org/).
-This is my blog for interesting side reading and projects.
 
 Previously I was a Masters student in the same department, during which I worked with [Prof. Jeffrey Rosenthal](http://probability.ca/jeff/). For my undergraduate degree I studied [Engineering Science](http://engsci.utoronto.ca/) at University of Toronto, majoring in Electrical and Computer Engineering. My undergraduate thesis was supervised by [Prof. Christina Christara](http://www.cs.toronto.edu/~ccc/). You can find my CV [here](files/CV_Mufan_Li.pdf).
 
