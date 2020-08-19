@@ -22,7 +22,8 @@ of learning algorithms,
 in particular using tools of probability theory, 
 stochastic analysis, and partial differential equations. 
 
-You can find a list of my research [here](https://mufan-li.github.io/research/).
+You can find a list of my research work 
+[here](https://mufan-li.github.io/research/).
 
 # Blog
 
