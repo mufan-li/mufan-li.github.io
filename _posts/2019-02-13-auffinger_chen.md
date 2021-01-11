@@ -64,8 +64,8 @@ For simplicity of notation, we will write $$\sigma(t) = \sqrt{\xi''(t)}$$ for th
 **Theorem (Auffinger-Chen Representation)**
 For all $$\zeta$$ a probability distribution on $$[0,1]$$, we have the following 
 
-\begin{equation}
-\begin{aligned}
+$$
+\begin{split}
     \Phi(0,x) = \max_{u \in \mathcal{D}} \bigg[
         \mathbb{E} & \Phi\left(1, 
         x + \int_0^1 \sigma^2(s) \, \zeta(s) \, u_s \, ds
@@ -74,8 +74,8 @@ For all $$\zeta$$ a probability distribution on $$[0,1]$$, we have the following
         &- \frac{1}{2} \int_0^1 \sigma^2(s) \, \zeta(s) \,
         \mathbb{E} u_s^2  \, ds
     \bigg].
-\end{aligned}
-\end{equation}
+\end{split}
+$$
 
 In particular, we have the maximizer is unique, and is given by $$u_s = \partial_x \Phi(s, x + X_s)$$, where $$X_s$$ is the strong solution of the following stochastic differential equation (SDE)
 
@@ -112,14 +112,16 @@ For any discrete distributions $$\zeta_1, \zeta_2$$,
 and for all $$k \in \mathbb{N}$$, 
 we have that 
 
-\begin{align}
+$$
+\begin{split}
     \left| \Phi_{\zeta_1} - \Phi_{\zeta_2} \right| 
     &\leq \xi''(1) \int_0^1 |\zeta_1(t) - \zeta_2(t)| dt, \\
     \left| \partial_x^k \Phi_{\zeta_1}(t,x) - 
         \partial_x^k \Phi_{\zeta_2}(t,x)
     \right| 
     &\leq c_k \, \xi''(1) \int_0^1 |\zeta_1(t) - \zeta_2(t)| dt.
-\end{align}
+\end{split}
+$$
 
 ---
 
@@ -166,8 +168,8 @@ $$
 
 We will make the substitution and complete the square to get 
 
-\begin{equation}
-\begin{aligned}
+$$
+\begin{split}
     dY_s &= \left[ \sigma^2(s) \, \zeta(s) \, u_s \, \partial_x \Phi 
     - \frac{1}{2} \sigma^2(s) \, \zeta(s) \, (\partial_x \Phi)^2
     \right] ds
@@ -177,21 +179,21 @@ We will make the substitution and complete the square to get
             (u_s - \partial_x \Phi )^2
         \right] ds
         + \sigma(s) \, \partial_x \Phi \, dW_s.
-\end{aligned}
-\end{equation}
+\end{split}
+$$
 
 Next we write this equation as an integral over $$[0,1]$$,
 and taking expectation to remove the martingale term we get
 
-\begin{equation}
-\begin{aligned}
+$$
+\begin{split}
 \mathbb{E} \Phi(1, x + X_1) - \Phi(0,x)
     =& \int_0^1 \frac{1}{2} \sigma^2(s) \, \zeta(s) \, 
         \mathbb{E} u_s^2 \, ds \\
     &- \int_0^1 \frac{1}{2} \sigma^2(s) \, \zeta(s) \,
         \mathbb{E} (u_s - \partial_x \Phi)^2 ds.
-\end{aligned}
-\end{equation}
+\end{split}
+$$
 
 Since $$\Phi, \partial_x \Phi$$ are continuous in $$\zeta$$, 
 we can extend this equation to all $$\zeta$$. 
@@ -280,8 +282,8 @@ where we observe since $$\cosh(x) > 0$$ and $$\mathbb{E}\cosh(x + W_t) < \infty$
 
 With this we can take the second derivative of $$\Phi$$ to get
 
-\begin{equation}
-\begin{aligned}
+$$
+\begin{split}
     \partial_{xx} \Phi(t,x) &= 
     \frac{-1}{\widehat \zeta(t)} \left\langle 
         \frac{1}{\widehat \zeta(t)} \tanh(x + W_t)
@@ -295,8 +297,8 @@ With this we can take the second derivative of $$\Phi$$ to get
         \left\langle \frac{1}{\widehat \zeta(t)} \left( 1 - \tanh(x + W_t)^2 \right)
         \right\rangle \\
         &> 0 \, ,
-\end{aligned}
-\end{equation}
+\end{split}
+$$
 
 where we used Jensen's inequality and the fact that $$\tanh(x)^2 < 1$$.
 
@@ -343,16 +345,16 @@ $$
 
 where each $$A_i$$ is defined as
 
-\begin{equation}
-\begin{aligned}
+$$
+\begin{split}
 A_i := \mathbb{E}& \, \log \cosh \left(
     x + \int_0^1 \sigma^2(s) \, \zeta_i(s) \, u_s \, ds
     + \int_0^1 \sigma(s) dW_s
     \right) \\
     & - \frac{1}{2} \int_0^1 \sigma^2(s) \, \zeta_i(s) \, 
         \mathbb{E} u_s^2 \, ds.
-\end{aligned}
-\end{equation}
+\end{split}
+$$
 
 Since $$\log \cosh(x)$$ is strictly convex, 
 the inequality is strict unless 
