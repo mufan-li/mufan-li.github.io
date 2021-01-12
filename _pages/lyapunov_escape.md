@@ -39,6 +39,8 @@ $$ \int f^2 \, d\nu - \nu(f)^2
 $$
 
 for all $$f \in C^1 \cap L^2(\nu)$$. 
+Note we adopt the convention of \[BGL13\] which adjusts 
+the right hand side by a factor of $$\beta$$. 
 
 $$\text{PI}(\kappa)$$ is well known to be equivalent to 
 exponential convergence of Langevin diffusion 
@@ -104,9 +106,10 @@ we have that $$\nu$$ satisfies $$\text{PI}(\kappa)$$.
 ---
 
 I should briefly mention that a recent arXiv preprint \[Che20\]
-proposed an almost constant lower bound on the Cheeger constant, 
-and consequently the Poincar&eacute; constant as well. 
-Perhaps we will go into more details in a future post. 
+proposed a result equivalent to an almost constant lower bound 
+on the Poincar&eacute; constant. 
+Since we are not trying to directly solve the KLS conjecture here, 
+so we will leave this discussion for a future post. 
 <!-- As of the writing of this post, 
 \[Che20\] still awaits confirmation by the community. 
 An earlier draft of \[LV16\] that claimed a similar result, 
@@ -150,8 +153,10 @@ we will state it as a claim.
 
 **Claim (Adapting [LE20, Proposition 9.11])** 
 Let $$F:\mathbb{R}^d \to \mathbb{R}$$ 
-be a [Morse function](https://en.wikipedia.org/wiki/Morse_theory) 
-with a unique local (and therefore global) minimum. 
+have a unique local (and therefore global) minimum, 
+and all saddle points have a strict escape,  
+i.e. $$\lambda_{\text{min}}( \nabla^2 F ) < - \lambda$$
+for some constant $$\lambda>0$$ at saddle points. 
 Then under appropriate containment conditions, 
 and choosing $$\beta$$ sufficiently large, 
 we have that $$\nu(x) = \frac{1}{Z} e^{-\beta F(x)}$$ 
@@ -160,11 +165,10 @@ for a constant $$\kappa>0$$ independent of $$\beta, d$$.
 
 ---
 
-A Morse function with unique local minimum can be non-convex, 
-but the only ''difficulty'' are strict saddle points. 
-Furthermore, we can weaken this assumption \[LE20, Assumption 3.3\]. 
-While this result is very intuitive, 
-deriving a quantitative bound is completely non-trivial. 
+As we discussed earlier, 
+perturbation helps gradient descent escape saddle points, 
+therefore this result is very intuitive. 
+However, deriving a quantitative bound is completely non-trivial. 
 We remark that for non-convex potentials, 
 most approaches to establishing a Poincar&eacute; inequality 
 will yield exponentially poor dependence on both $$\beta$$ and $$d$$. 
@@ -181,11 +185,13 @@ with $$\kappa$$ independent of $$\beta, d$$!   -->
 
 ### Implications 
 
-First of all, this result implies that the KLS conjecture 
+While this result does not imply the KLS conjecture itself, 
+it does implies that the KLS conjecture 
 can be extended beyond convex functions. 
-More precisely, this result allows us to add strict saddle points 
-to any potentials $$F$$ while preserving 
-a dimension and temperature free Poincar&eacute; inequality. 
+More precisely, if a potential $$F$$ satisfies 
+a dimension and temperature free Poincar&eacute; inequality, 
+we can add saddle points to $$F$$ without losing this property. 
+<!--  -->
 Therefore, we can replace convex potentials $$F$$ in the statement 
 of the KLS conjecture with modifications of convex potentials $$F$$ 
 with strict saddle points. 
@@ -194,7 +200,7 @@ the strictness of saddle points can be relaxed as well,
 since it's the parallel of relaxing strong convexity to convexity 
 for saddle points. 
 
-Second of all, notice that we can take $$\beta$$ 
+Additionally, notice that we can take $$\beta$$ 
 to be as large as want. 
 This implies that the amount of randomness added to gradient flow 
 does not affect its ability to escape saddle points. 
@@ -214,9 +220,8 @@ in the limit of $$\beta \to \infty$$ \[Bak08\].
 
 Now to my favourite part of this post, 
 where we actually describe the proof techniques. 
-We will see that despite the lengthy technical 
-calculations in \[LE20\], 
-the proof sketch is quite straight forward. 
+We will see that despite the lengthy calculations in \[LE20\], 
+the proof idea is quite straight forward to explain. 
 We start by stating a Lyapunov criterion for 
 the Poincar&eacute; inequality. 
 
@@ -227,12 +232,12 @@ Let $$U \subset \mathbb{R}^d$$ be such that
 $$\nu$$ restricted to $$U$$ satisfies $$\text{PI}(\kappa_U)$$. 
 Suppose there exist constants $$\theta > 0, b \geq 0$$ 
 and a function $$V \in C^2(\mathbb{R}^d)$$ such that 
-$$W \geq 1$$ and 
+$$V \geq 1$$ and 
 
-$$ LW := \langle -\nabla F, \nabla V \rangle 
+$$ LV := \langle -\nabla F, \nabla V \rangle 
     + \frac{1}{\beta} \Delta V 
     \leq 
-    -\theta \, W + b {1}_{U_{}} \,, 
+    -\theta \, V + b {1}_{U_{}} \,, 
 $$
 
 Then $$\nu$$ satisfies $$\text{PI}(\kappa)$$ with constant 
@@ -244,7 +249,7 @@ $$
 
 Intuitively, we can think of the Lyapunov function $$V$$ 
 as an energy measure of the Langevin diffusion $$\{X_t\}_{t_{} \geq 0}$$, 
-$$LW$$ as the time evolution of $$V$$ via 
+$$LV$$ as the time evolution of $$V$$ via 
 [It&ocirc;'s Lemma](https://en.wikipedia.org/wiki/It%C3%B4%27s_lemma), 
 and the Lyapunov condition (inequality) 
 describes the rate of energy dissipation over time. 
@@ -363,7 +368,7 @@ of $$\nabla^2 F$$.
 $$F$$ near a saddle point can be viewed as a local maximum. 
 
 To illustrate this point clearly, 
-let us consider the quadratic function $$f(x,y) = x^2 - y^2$$ 
+let us consider the quadratic function $$f(x,y) = x^2 - \frac{\lambda}{2} y^2$$ 
 with a saddle point at $$(x,y) = (0,0)$$. 
 For the Langevin diffusion to escape a neighbourhood of radius $$r>0$$, 
 it's sufficient to ensure the $$y$$-component exceeds $$r>0$$. 
@@ -375,8 +380,8 @@ to escaping an one dimension local maximum, i.e.
 $$ dX_t = \lambda X_t \, dt + \sqrt{ 2/\beta } \, dW_t \,, 
 $$
 
-where $$-\lambda$$ is the smallest eigenvalue of $$\nabla^2 F$$ 
-at saddle points. 
+where $$-\lambda$$ upper bounds the smallest eigenvalue of 
+$$\nabla^2 F$$ at saddle points. 
 
 We observe that this SDE is the "negative" Ornstein-Uhlenbeck process, 
 and it has a closed form solution 
@@ -435,7 +440,7 @@ and a more careful analysis could sharpen or remove this condition.
 Hopefully the readers will have more thoughts and ideas than I do. 
 
 Thanks to reading up this point, 
-and I hope everyone a happy new year! 
+and I wish everyone a happy new year! 
 
 
 
