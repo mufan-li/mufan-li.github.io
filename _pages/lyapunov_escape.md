@@ -123,7 +123,7 @@ an adaptive perturbation of gradient descent
 escapes saddle points at a dimension free rate \[JGN+17\]. 
 This hints at the possibility of establishing 
 a dimension and temperature free Poincar&eacute; inequality 
-for even non-convex potential functions!  
+for even non-convex potential functions! 
 Indeed, we will discuss this next. 
 
 
@@ -154,7 +154,7 @@ we will state it as a claim.
 **Claim (Adapting [LE20, Proposition 9.11])** 
 Let $$F:\mathbb{R}^d \to \mathbb{R}$$ 
 have a unique local (and therefore global) minimum, 
-and all saddle points have a strict escape,  
+and all saddle points have a strict escape, 
 i.e. $$\lambda_{\text{min}}( \nabla^2 F ) < - \lambda$$
 for some constant $$\lambda>0$$ at saddle points. 
 Then under appropriate containment conditions, 
@@ -185,8 +185,14 @@ with $$\kappa$$ independent of $$\beta, d$$!   -->
 
 ### Implications 
 
-While this result does not imply the KLS conjecture itself, 
-it does implies that the KLS conjecture 
+Let us start by emphasizing this result **does not** 
+imply the KLS conjecture. 
+Indeed, the conditions of the conjecture does not 
+require $$F$$ to have a unique minimum. 
+Hence $$F$$ needs not to be strongly convex around the minimum. 
+This is a key requirement of the proof technique. 
+
+It does, however, imply that the KLS conjecture 
 can be extended beyond convex functions. 
 More precisely, if a potential $$F$$ satisfies 
 a dimension and temperature free Poincar&eacute; inequality, 
@@ -428,7 +434,7 @@ Quite a few technical details were swept under the rug
 to simplify the proof sketch, as the reader might expect. 
 Probably the most significant is the approximation 
 of $$F$$ by a quadratic function - 
-it is actually not very straight forward to connect  
+it is actually not very straight forward to connect 
 an approximation bound to an escape time bound. 
 
 At the same time, the fact that $$\beta$$ needs to be chosen 
