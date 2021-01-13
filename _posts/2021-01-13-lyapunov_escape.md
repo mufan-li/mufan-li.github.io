@@ -9,8 +9,8 @@ actually contains a novel technique for establishing functional inequalities.
 And I really doubt anyone had time to interpret the intuitive consequences 
 of such results on perturbed gradient descent, 
 and definitely not extending the Kannan-Lov&#225;sz-Simonovits (KLS) 
-conjecture \[LV18\]. 
-Which brings me to write this blog post. 
+conjecture \[LV18\] - 
+which brings me to write this blog post. 
 
 
 
@@ -221,11 +221,21 @@ This implies that the amount of randomness added to gradient flow
 does not affect its ability to escape saddle points. 
 In other words, any tiny amount of perturbation will 
 help escape saddle points. 
-That being said, this interpretation is not new, 
+Furthermore, we emphasize this implies 
+**a discretization of Langevin diffusion**, 
+i.e. a perturbed gradient descent, 
+will also escape strict saddle points - 
+this was the main result of \[LE20\]. 
+This is in sharp contrast with (deterministic) gradient descent 
+taking up to exponential time to escape a saddle point \[DJL+17\], 
+implying **the addition of noise, even arbitrarily small, 
+fundamentally changes the behaviour of gradient descent**. 
+
+<!-- We also note the continuous time result is not new, 
 as there have been asymptotic analysis of saddle point escape time 
-in the limit of $$\beta \to \infty$$ \[Bak08\]. 
-
-
+in the limit of $$\beta \to \infty$$ \[Bak08\], 
+this is the first non-asymptotic characterization to our best knowledge. 
+ -->
 
 
 
@@ -447,8 +457,8 @@ of $$F$$ by a quadratic function -
 it is actually not very straight forward to connect 
 an approximation bound to an escape time bound. 
 
-At the same time, the fact that $$\beta$$ needs to be chosen 
-very large is quite unsatisfying. 
+At the same time, the requirement of $$\beta$$ to be 
+sufficiently large is quite unsatisfying. 
 Intuitively, why would adding noise hurt the mixing of 
 a Markov process? 
 It feels to me that this condition is merely a technical constraint, 
@@ -470,11 +480,12 @@ and I wish everyone a happy new year!
 
 ## References 
 
-- \[Bak08\] Y. Bakhtin, "Exit asymptotics for small diffusion about an unstable equilibrium." Stochastic processes and their applications 118.5 (2008): 839-851. 
+<!-- - \[Bak08\] Y. Bakhtin, "Exit asymptotics for small diffusion about an unstable equilibrium." Stochastic processes and their applications 118.5 (2008): 839-851.  -->
 - \[BBCG08\] Dominique Bakry, Franck Barthe, Patrick Cattiaux, and Arnaud Guillin, A simple proof of the poincar ́e inequality for a large class of probability measures, Electronic Communications in Probability 13 (2008), 60–66.
 - \[Ber11\] N. Berglund, Kramers’ Law: Validity, Derivations and Generalisations. arXiv preprint arXiv:1106.5799 (2011).
 - \[BGL13\] D. Bakry, I. Gentil, and M. LeDoux, Analysis and Geometry of Markov Diffusion Operators, Springer (2013). 
 - \[Che20\] Y. Chen, An Almost Constant Lower Bound of the Isoperimetric Coefficient in the KLS Conjecture, arXiv preprint arXiv:2011.13661 (2020). 
+- \[DJL+17\] S. S. Du, C. Jin, J. D. Lee, M. I. Jordan, A. Singh, B. Poczos, Gradient descent can take exponential time to escape saddle points. In Advances in neural information processing systems, pp. 1067-1077 (2017).
 - \[Eva10\] L.C. Evans, Partial differential equations, Graduate studies in mathematics, American Mathematical Society (2010).
 - \[JGN+17\] C. Jin, R. Ge, P. Netrapalli, S. M. Kakade, & M.I. Jordan, How to escape saddle points efficiently, arXiv preprint arXiv:1703.00887 (2017). 
 - \[LE20\] M.B. Li, M.A. Erdogdu, Riemannian Langevin Algorithm for Solving Semidefinite Programs, arXiv preprint arXiv:2010.11176 (2020). 

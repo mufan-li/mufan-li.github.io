@@ -23,7 +23,7 @@ Most recently, I have been thinking a lot about
 - Langevin algorithms on a Riemannian manifold, 
 in particular as an application of stochastic analysis 
 and partial differential equations, 
-- Scaling limits of neural networks, 
+- Training dynamics of large neural networks, 
 in particular as an application of random matrix theory. 
 
 You can find a list of my research work 
