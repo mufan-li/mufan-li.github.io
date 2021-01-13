@@ -32,23 +32,29 @@ We say $$\nu$$ satisfies the **Poincar&eacute; inequality**
 with constant $$\kappa > 0$$, 
 denoted $$\text{PI}(\kappa)$$, if 
 
-$$ \int f^2 \, d\nu - \nu(f)^2 
+$$ \int f^2 \, d\nu - \left( \int f \, d\nu \right)^2 
     \leq 
         \frac{1}{\kappa \, \beta} 
         \int | \nabla f |^2 \, d\nu \,, 
 $$
 
-for all $$f \in C^1 \cap L^2(\nu)$$. 
+for all $$f \in C^1(\mathbb{R}^d) \cap L^2(\nu)$$. 
 Note we adopt the convention of \[BGL13\] which adjusts 
-the right hand side by a factor of $$\beta$$. 
+the right hand side by a factor of $$\beta$$, 
+and the two conventions agree when $$\beta = 1$$. 
 
 $$\text{PI}(\kappa)$$ is well known to be equivalent to 
 exponential convergence of Langevin diffusion 
-\[BGL13, Theorem 4.2.5\] 
-and quadratic linear transport inequality \[Vil08, Theorem 22.25\], 
+\[BGL13, Theorem 4.2.5\], 
+quadratic-linear cost transport inequality \[Vil08, Theorem 22.25\], 
+and Cheeger's isoperimetric inequality \[LV18, Theorem 11\]. 
+Furthermore, $$\text{PI}(\kappa)$$ also 
 implies dimension free exponential concentration \[Vil08, Theorem 22.32\], 
 and serves as a key tool for deriving existence, uniqueness, and smoothness 
 results in partial differential equations \[Eva10\]. 
+Therefore a tight lower bound for the Poincar&eacute; constant 
+is widely desired for a large range of applications. 
+
 
 
 
@@ -107,9 +113,11 @@ we have that $$\nu$$ satisfies $$\text{PI}(\kappa)$$.
 
 I should briefly mention that a recent arXiv preprint \[Che20\]
 proposed a result equivalent to an almost constant lower bound 
-on the Poincar&eacute; constant. 
-Since we are not trying to directly solve the KLS conjecture here, 
-so we will leave this discussion for a future post. 
+on the Poincar&eacute; constant of order $$O( d^{-o(1)} )$$, 
+which in the limit of $$d\to\infty$$ converges to $$0$$ 
+slower than $$d^{-r}$$ for all $$r>0$$. 
+For the sake of staying on topic, 
+we will leave this extremely interesting subject for a future post. 
 <!-- As of the writing of this post, 
 \[Che20\] still awaits confirmation by the community. 
 An earlier draft of \[LV16\] that claimed a similar result, 
@@ -152,10 +160,11 @@ we will state it as a claim.
 ---
 
 **Claim (Adapting [LE20, Proposition 9.11])** 
-Let $$F:\mathbb{R}^d \to \mathbb{R}$$ 
+Suppose $$F:\mathbb{R}^d \to \mathbb{R}$$ 
 have a unique local (and therefore global) minimum, 
-and all saddle points have a strict escape, 
-i.e. $$\lambda_{\text{min}}( \nabla^2 F ) < - \lambda$$
+and all saddle points are strict, 
+i.e. the minimum eigenvalue 
+$$\lambda_{\text{min}}( \nabla^2 F ) < - \lambda$$ 
 for some constant $$\lambda>0$$ at saddle points. 
 Then under appropriate containment conditions, 
 and choosing $$\beta$$ sufficiently large, 
@@ -207,7 +216,7 @@ since it's the parallel of relaxing strong convexity to convexity
 for saddle points. 
 
 Additionally, notice that we can take $$\beta$$ 
-to be as large as want. 
+to be as large as we want. 
 This implies that the amount of randomness added to gradient flow 
 does not affect its ability to escape saddle points. 
 In other words, any tiny amount of perturbation will 
@@ -268,15 +277,16 @@ due to the Poincar&eacute; inequality on $$U$$.
 In our case, we will choose $$U$$ to be a small neighbourhood 
 of the global minimum, 
 and use the strong convexity (Bakry-&Eacute;mery criterion) 
-to get a Poincar\&eacute; constant $$\kappa_U$$. 
+to get a Poincar&eacute; constant $$\kappa_U$$. 
 <!--  -->
 For those that find this description familiar, 
 indeed this is the diffusion equivalent of the drift 
 and minorization conditions for Markov chain mixing \[MT09\]. 
 
-Similar to other Lyapunov function based methods in general, 
+Similar to other Lyapunov function based methods 
+in differential equations, 
 constructing such a function $$V$$ is the main difficulty. 
-\[MS14\] observed that when $$F$$ is Morse, 
+\[MS14\] observed that when $$F$$ has only strict saddle points, 
 the choice of $$V = \exp\left( \frac{\beta}{2} F \right)$$ 
 works very nicely away from saddle points. 
 In fact, we can directly compute the Lyapunov condition 

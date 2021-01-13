@@ -17,10 +17,14 @@ Previously I was a Masters student in the same department, during which I worked
 
 # Research
 
-I am generally interested in studying theoretical properties 
-of learning algorithms, 
-in particular using tools of probability theory, 
-stochastic analysis, and partial differential equations. 
+I am broadly interested in studying theoretical properties 
+of random algorithms in statistical learning. 
+Most recently, I have been thinking a lot about 
+- Langevin algorithms on a Riemannian manifold, 
+in particular as an application of stochastic analysis 
+and partial differential equations, 
+- Scaling limits of neural networks, 
+in particular as an application of random matrix theory. 
 
 You can find a list of my research work 
 [here](https://mufan-li.github.io/research/).
