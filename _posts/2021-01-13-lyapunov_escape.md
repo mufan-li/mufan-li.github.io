@@ -355,15 +355,21 @@ then $$V$$ is the unique solution to the Poisson equation
 
 $$
 \begin{split}
-    LV &= V \,, \quad x \in B \,, \\ 
-    V &= 1 \,, \quad x \in \partial B \,. 
+    LV &= - \theta \, V \,, \quad & x \in B \,, \\ 
+    V &= 1 \,, \quad & x \in \partial B \,. 
 \end{split}
 $$
 
 ---
 
-Readers familiar with concentration inequalities 
-may immediately recognize the condition is known as 
+Readers with a Markov chain background may recognize 
+this escape time based condition to be equivalent to 
+drift and minorization \[DMPS18, Theorem 14.1.3\]. 
+In fact, this method was inspired by the nice connection 
+drawn between diffusions and Markov chains. 
+
+Additionally, readers familiar with concentration inequalities 
+may recognize the theorem's condition is known as 
 exponential integrability, 
 and it's one of the equivalent characterizations 
 for sub-exponential random variables. 
@@ -419,16 +425,16 @@ $$
 which corresponds to 
 $$X_t \sim N( X_0 e^{\lambda t} \,, 
 \frac{1}{\lambda \beta}(e^{2\lambda t} - 1) )$$. 
-Finally, plugging in the Gaussian density very quickly leads to 
-the desired result of 
+Finally, plugging in the Gaussian density 
+and a few calculations later, 
+we get the desired result of 
 
 $$ \mathbb{P} [ \, |\tau_{B^c}| \geq t \, ] 
     \leq \mathbb{P} [ \, X_t \in B \, ] 
     \leq c e^{ -\lambda t } \,, 
 $$
 
-where the constant $$c$$ does not depend on $$t$$, 
-and this is the desired result. 
+where the constant $$c$$ does not depend on $$t$$. 
 I.e. this escape time tail bound implies that 
 $$V(x)$$ is a valid Lyapunov function, 
 and hence implies a Poincar&eacute; inequality. 
@@ -486,6 +492,7 @@ and I wish everyone a happy new year!
 - \[BGL13\] D. Bakry, I. Gentil, and M. LeDoux, Analysis and Geometry of Markov Diffusion Operators, Springer (2013). 
 - \[Che20\] Y. Chen, An Almost Constant Lower Bound of the Isoperimetric Coefficient in the KLS Conjecture, arXiv preprint arXiv:2011.13661 (2020). 
 - \[DJL+17\] S. S. Du, C. Jin, J. D. Lee, M. I. Jordan, A. Singh, B. Poczos, Gradient descent can take exponential time to escape saddle points. In Advances in neural information processing systems, pp. 1067-1077 (2017).
+- \[DMPS18\] Randal Douc, Eric Moulines, Pierre Priouret, and Philippe Soulier, Markov chains, Springer, 2018.
 - \[Eva10\] L.C. Evans, Partial differential equations, Graduate studies in mathematics, American Mathematical Society (2010).
 - \[JGN+17\] C. Jin, R. Ge, P. Netrapalli, S. M. Kakade, & M.I. Jordan, How to escape saddle points efficiently, arXiv preprint arXiv:1703.00887 (2017). 
 - \[LE20\] M.B. Li, M.A. Erdogdu, Riemannian Langevin Algorithm for Solving Semidefinite Programs, arXiv preprint arXiv:2010.11176 (2020). 
