@@ -3,38 +3,38 @@ permalink: /
 title: "About"
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-I am a PhD student in the [Department of Statistical Sciences](http://www.utstat.utoronto.ca/) at the University of Toronto 
-and the [Vector Institute](https://vectorinstitute.ai/). 
-My academic advisors are [Prof. Daniel Roy](http://danroy.org/) 
-and [Prof. Murat Erdogdu](http://www.cs.toronto.edu/~erdogdu/). 
+I am a PhD student in the [Department of Statistical Sciences](http://www.utstat.utoronto.ca/) at the University of Toronto
+and the [Vector Institute](https://vectorinstitute.ai/).
+My academic advisors are [Prof. Daniel Roy](http://danroy.org/)
+and [Prof. Murat Erdogdu](http://www.cs.toronto.edu/~erdogdu/).
 
 Previously I was a Masters student in the same department, during which I worked with [Prof. Jeffrey Rosenthal](http://probability.ca/jeff/). For my undergraduate degree I studied [Engineering Science](http://engsci.utoronto.ca/) at University of Toronto, majoring in Electrical and Computer Engineering. My undergraduate thesis was supervised by [Prof. Christina Christara](http://www.cs.toronto.edu/~ccc/). You can find my CV [here](files/CV_Mufan_Li.pdf).
 
 # Research
 
-I am broadly interested in studying theoretical properties 
-of random algorithms in statistical learning. 
-Most recently, I have been thinking a lot about 
-- Langevin algorithms on a Riemannian manifold, 
-in particular as an application of stochastic analysis 
-and partial differential equations, 
-- Training dynamics of large neural networks, 
-in particular as an application of random matrix theory. 
+I am broadly interested in studying theoretical properties
+of random algorithms in statistical learning.
+Most recently, I have been thinking a lot about
+- Langevin algorithms on a Riemannian manifold,
+in particular as an application of stochastic analysis
+and partial differential equations,
+- Training dynamics of large neural networks,
+in particular as an application of random matrix theory.
 
-You can find a list of my research work 
+You can find a list of my research work
 [here](https://mufan-li.github.io/research/).
 
 # Blog
 
-I attempt to maintain a blog of interesting mathematics I encouter, 
-but does not necessarily fit into my research program. 
-You can find the current list of my blog posts 
-[here](https://mufan-li.github.io/blog-posts/). 
+I attempt to maintain a blog of interesting mathematics I encounter, 
+but does not necessarily fit into my research program.
+You can find the current list of my blog posts
+[here](https://mufan-li.github.io/blog-posts/).
 
 <!-- Masters Research Project - Collaborative Filtering For Student Grade Analysis (2016) \[[Document](files/Mufan_Li_MSc_Report.pdf)\] \[[Code](https://github.com/mufan-li/sg)\]
 
