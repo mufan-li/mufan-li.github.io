@@ -70,7 +70,7 @@ $$
         \mathbb{E} & \Phi\left(1, 
         x + \int_0^1 \sigma^2(s) \, \zeta(s) \, u_s \, ds
         + \int_0^1 \sigma(s) \, dW_s
-    \right) \\\\\\\\
+    \right) \\
         &- \frac{1}{2} \int_0^1 \sigma^2(s) \, \zeta(s) \,
         \mathbb{E} u_s^2  \, ds
     \bigg].
@@ -213,7 +213,7 @@ Since $$|\partial_x \Phi| \leq 1$$,
 we have $$u_s = \partial_x \Phi \in \mathcal{D}$$, 
 hence achieving the equality in the representation. 
 
-$$\tag*{$\Box$}$$.
+$$\tag*{$\Box$}$$ 
 
 
 
@@ -446,27 +446,3 @@ studies and research.
  - Auffinger, A., & Chen, W. K. (2015). The Parisi formula has a unique minimizer. Communications in Mathematical Physics, 335(3), 1429-1444.
  - Bou&eacute;, M., & Dupuis, P. (1998). A variational representation for certain functionals of Brownian motion. The Annals of Probability, 26(4), 1641-1659.
  - Panchenko, D. (2013). The Sherrington-Kirkpatrick model. Springer Science & Business Media.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
