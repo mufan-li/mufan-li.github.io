@@ -45,7 +45,7 @@ $$
 \end{aligned}
 $$
 
-where we used the time homogeneity of $$A$$ to write $$\mathbb{P}_x(A \vert X(t) \in dy) = h(y)$$. In other words, the Radon--Nikodym derivative for the transition kernel is simply the ratio $$h(y)/h(x)$$! 
+where we used the shift invariance of $$A$$ to write $$\mathbb{P}_x(A \vert X(t) \in dy) = h(y)$$. In other words, the Radon--Nikodym derivative for the transition kernel is simply the ratio $$h(y)/h(x)$$! 
 
 To make calculations even simpler, we will also compute the effect on the infinitesimal generator, namely the operator $$L$$ defined as follows: 
 
@@ -85,12 +85,12 @@ $$
 
 where we used the h-transform result above and the definition of the generator. 
 
-At this point, we will recall a well known that $$h$$ is harmonic, i.e. $$Lh = 0$$, to save some calculations. We also recall that for a diffusion process $$dX(t) = \mu(X(t))\,dt + dB(t)$$, the generator follows from It&ocirc;'s Lemma 
+At this point, we will recall a well known that $$h$$ is harmonic, i.e. $$Lh = 0$$, to save some calculations (I suspect the letter "h" in h-transform stands for "harmonic"). We also recall that for a diffusion process $$dX(t) = \mu(X(t))\,dt + dB(t)$$, the generator follows from It&ocirc;'s Lemma 
 
 $$ Lf(x) := \langle \mu(x), \nabla f(x) \rangle + \frac{1}{2} \Delta f(x) \,. 
 $$
 
-This implies that we have the following clean formula for the transformed generator 
+Using the harmonic property, we have the following clean formula for the transformed generator 
 
 $$ \tilde{L} f(x) = \frac{ L(f(x)h(x)) }{h(x)} = \langle \mu(x) + \nabla \log h(x), \nabla f(x) \rangle + \frac{1}{2} \Delta f(x) \,, 
 $$
@@ -127,7 +127,7 @@ where we define $$ A := \{ \{B_i(t)\} \text{ do not intersect } \} $$.
 
 Before we start, we note the event of $$n$$ Brownian motions to not intersect for all time has zero probability. Then what does it even mean to condition on an event of zero probability? Well we would consider a collection of events $$\{A_c\}_{c>0}$$ converging to the null event $$A$$, such that $$\mathbb{P}(A_c) > 0$$ for all $$c>0$$, and we can compute dynamics of these Brownian motions in the limit as $$c\to 0$$. 
 
-To define these events $$A_c$$, we will define the *Vandermonde determinent*: 
+To define these events $$A_c$$, we will define the *Vandermonde determinant*: 
 
 $$ \Delta_n( \lambda ) = \prod_{1 \leq i < j \leq n} ( \lambda_i - \lambda_j ) \,. 
 $$
@@ -165,7 +165,7 @@ where hide the diffusion term since the It&ocirc; integral with respect to a mar
 
 Using the identity 
 
-$$ \frac{1}{(a-b)(b-c)} + \frac{1}{(b-a)(b-c)} + \frac{1}{(c-a)(c-b)} = 0 \,, 
+$$ \frac{1}{(a-b)(a-c)} + \frac{1}{(b-a)(b-c)} + \frac{1}{(c-a)(c-b)} = 0 \,, 
 $$
 
 it's a simple calculation to show that $$\Delta \Delta_n(x) = 0$$ via this symmetry, and hence the desired result follows. 
@@ -207,8 +207,14 @@ $$\tag*{$\Box$}$$
 
 That's it! That's the proof! Having played around with h-transforms before, and getting only ridiculously ugly expressions, it's quite remarkable to me that this proof was able to avoid messy calculations all together. 
 
-What helped simplified this proof? The harmonic property of the Vandemonde determinent, i.e. $$\Delta \Delta_n(x) = 0$$. To quote B&aacute;lint Vir&aacute;g, "[harmonic function] fits into the h-transform language." Indeed, we saw above that $$\Delta_n(x)$$ played very nicely with the calculations. So let this be a rule of thumb for future problems: try to define events using harmonic functions in h-transforms! 
+What helped simplified this proof? To quote B&aacute;lint Vir&aacute;g: "[t]his is because the Vandermonde [determinant] is harmonic, so this fits into the h-transform language." Indeed, we saw above that $$\Delta \Delta_n(x) = 0$$ played an important role in the calculations. So let this be a rule of thumb for future problems: try to define events using harmonic functions in h-transforms! 
 
+For those interested in random matrix theory, Terrence Tao wrote some very nice [lecture notes](https://terrytao.wordpress.com/2010/01/18/254a-notes-3b-brownian-motion-and-dyson-brownian-motion/) on the applications of Dyson Brownian motion, which can also be found in his book [Ta12]. In particular, we can use Dyson Brownian motion to derive the eigenvalue density of a Gaussian unitary ensemble (GUE) matrix, common known as the *Ginibre formula*: 
+
+$$ \rho(\lambda) = \frac{1}{(2\pi)^{n/2} 1! \cdots (n-1)!} e^{ -|\lambda|^2/2 } |\Delta_n(\lambda)|^2 \,, 
+$$ 
+
+which can then be used to derive the famous [Wigner's semicircle law](https://mathworld.wolfram.com/WignersSemicircleLaw.html) in the limit $$n \to \infty$$. 
 
 
 
