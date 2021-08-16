@@ -49,7 +49,7 @@ where we used the shift invariance of $$A$$ to write $$\mathbb{P}_x(A \vert X(t)
 
 To make calculations even simpler, we will also compute the effect on the infinitesimal generator, namely the operator $$L$$ defined as follows: 
 
-$$ Lf(x) := \lim_{t \to 0} \frac{ \mathbb{E}_x f(X(t)) - f(x) }{t} \,, 
+$$ L[f](x) := \lim_{t \to 0} \frac{ \mathbb{E}_x f(X(t)) - f(x) }{t} \,, 
 	\quad \text{ if it exists, }
 $$
 
@@ -79,7 +79,7 @@ $$
 			\right) 
 		\\
 	&= 
-		\frac{1}{h(x)} L( f(x) h(x) ) \,, 
+		\frac{1}{h(x)} L[fh](x) \,, 
 \end{aligned}
 $$
 
@@ -87,12 +87,12 @@ where we used the h-transform result above and the definition of the generator.
 
 At this point, we will recall a well known that $$h$$ is harmonic, i.e. $$Lh = 0$$, to save some calculations (I suspect the letter "h" in h-transform stands for "harmonic"). We also recall that for a diffusion process $$dX(t) = \mu(X(t))\,dt + dB(t)$$, the generator follows from It&ocirc;'s Lemma 
 
-$$ Lf(x) := \langle \mu(x), \nabla f(x) \rangle + \frac{1}{2} \Delta f(x) \,. 
+$$ L[f](x) := \langle \mu(x), \nabla f(x) \rangle + \frac{1}{2} \Delta f(x) \,. 
 $$
 
 Using the harmonic property, we have the following clean formula for the transformed generator 
 
-$$ \tilde{L} f(x) = \frac{ L(f(x)h(x)) }{h(x)} = \langle \mu(x) + \nabla \log h(x), \nabla f(x) \rangle + \frac{1}{2} \Delta f(x) \,, 
+$$ \tilde{L} [f](x) = \frac{ L[fh](x) }{h(x)} = \langle \mu(x) + \nabla \log h(x), \nabla f(x) \rangle + \frac{1}{2} \Delta f(x) \,, 
 $$
 
 which corresponds to the diffusion process 
@@ -125,7 +125,7 @@ where we define $$ A := \{ \{B_i(t)\} \text{ do not intersect } \} $$.
 
 ---
 
-Before we start, we note the event of $$n$$ Brownian motions to not intersect for all time has zero probability. Then what does it even mean to condition on an event of zero probability? Well we would consider a collection of events $$\{A_c\}_{c>0}$$ converging to the null event $$A$$, such that $$\mathbb{P}(A_c) > 0$$ for all $$c>0$$, and we can compute dynamics of these Brownian motions in the limit as $$c\to 0$$. 
+Before we start, we note the event of $$n$$ Brownian motions to not intersect for all time has zero probability. Then what does it even mean to condition on an event of zero probability? Well we would consider a collection of events $$\{A_c\}_{c>0}$$ converging to the null event $$A$$, such that $$\mathbb{P}(A_c) > 0$$ for all $$c>0$$, and we can compute dynamics of these Brownian motions in the limit as $$c\to \infty$$. 
 
 To define these events $$A_c$$, we will define the *Vandermonde determinant*: 
 
