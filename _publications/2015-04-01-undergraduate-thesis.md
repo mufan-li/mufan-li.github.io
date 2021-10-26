@@ -5,6 +5,7 @@ venue: Undergraduate Thesis
 permalink: /research/2015-04-01-undergraduate-thesis
 date: 2015-04-01
 ---
+Undergraduate Thesis (2015) 
 \[[Document](Mufan_Li_Undergrad_Thesis.pdf)\] 
 \[[Presentation](Mufan_Li_Thesis_Presentation.pdf)\] 
 \[[Code](https://github.com/mufan-li/PDE03)\]
