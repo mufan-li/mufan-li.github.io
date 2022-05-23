@@ -20,11 +20,8 @@ Previously I was a Masters student in the same department, during which I worked
 I am broadly interested in studying theoretical properties
 of random algorithms in statistical learning.
 Most recently, I have been thinking a lot about
-- Langevin algorithms on a Riemannian manifold,
-in particular as an application of stochastic analysis
-and partial differential equations,
-- Training dynamics of large neural networks,
-in particular as an application of random matrix theory.
+- the complexity of sampling under functional inequalities for Langevin type algorithms,
+- scaling limits of large neural networks and its training dynamics.
 
 You can find a list of my research work
 [here](https://mufan-li.github.io/research/).
