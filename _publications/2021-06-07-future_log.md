@@ -8,4 +8,4 @@ date: 2021-06-07
 
 With Mihai Nica and Daniel M. Roy. 
 \[[arXiv](https://arxiv.org/abs/2106.04013)\] \\
-NeurIPS 2021. 
+[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/hash/412758d043dd247bddea07c7ec558c31-Abstract.html). 
