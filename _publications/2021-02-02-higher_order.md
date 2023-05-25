@@ -6,5 +6,5 @@ permalink: /research/2021-02-02-higher_order
 date: 2021-02-02
 ---
 
-With Maxime Gazeau (2021). 
+**M. Li** and Maxime Gazeau (2021). \\
 \[[arXiv](https://arxiv.org/abs/2102.06229)\] 

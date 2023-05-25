@@ -6,6 +6,6 @@ permalink: /research/2021-06-07-future_log
 date: 2021-06-07
 ---
 
-With Mihai Nica and Daniel M. Roy. 
-\[[arXiv](https://arxiv.org/abs/2106.04013)\] \\
-[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/hash/412758d043dd247bddea07c7ec558c31-Abstract.html). 
+**M. Li**, Mihai Nica, and Daniel M. Roy. \\
+[NeurIPS (2021)](https://proceedings.neurips.cc/paper/2021/hash/412758d043dd247bddea07c7ec558c31-Abstract.html). 
+\[[arXiv](https://arxiv.org/abs/2106.04013)\]
