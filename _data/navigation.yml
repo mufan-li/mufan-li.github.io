@@ -19,8 +19,8 @@ main:
   - title: "Blog"
     url: /blog-posts/
   
-  # - title: "CV"
-  #   url: /cv/
+  - title: "CV"
+    url: /files/CV_Mufan_Li.pdf
     
   # - title: "Guide"
   #   url: /markdown/

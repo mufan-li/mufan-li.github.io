@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About"
+title: ""
 excerpt: ""
 author_profile: true
 redirect_from:
@@ -8,12 +8,18 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in the [Department of Statistical Sciences](http://www.utstat.utoronto.ca/) at the University of Toronto
-and the [Vector Institute](https://vectorinstitute.ai/).
-My academic advisors are [Prof. Daniel Roy](http://danroy.org/)
-and [Prof. Murat Erdogdu](http://www.cs.toronto.edu/~erdogdu/).
+# About
 
-Previously I was a Masters student in the same department, during which I worked with [Prof. Jeffrey Rosenthal](http://probability.ca/jeff/). For my undergraduate degree I studied [Engineering Science](http://engsci.utoronto.ca/) at University of Toronto, majoring in Electrical and Computer Engineering. My undergraduate thesis was supervised by [Prof. Christina Christara](http://www.cs.toronto.edu/~ccc/). 
+I am an incoming Postdoctoral Research Associate at [Princeton ORFE](https://orfe.princeton.edu/) in Fall 2023, where I will be working with [Boris Hanin](https://boris-hanin.github.io/) on **deep learning theory**. 
+
+Previously, I received my PhD from the [Department of Statistical Sciences](http://www.utstat.utoronto.ca/) at the University of Toronto
+and the [Vector Institute](https://vectorinstitute.ai/),
+where my advisors were [Prof. Daniel Roy](http://danroy.org/)
+and [Prof. Murat Erdogdu](http://www.cs.toronto.edu/~erdogdu/).
+<!--  -->
+Prior to my PhD, I received my MSc in Statistics from the same department, and my BASc in [Engineering Science](http://engsci.utoronto.ca/) from University of Toronto. 
+
+<!-- Previously I was a Masters student in the same department, during which I worked with [Prof. Jeffrey Rosenthal](http://probability.ca/jeff/). For my undergraduate degree I studied [Engineering Science](http://engsci.utoronto.ca/) at University of Toronto, majoring in Electrical and Computer Engineering. My undergraduate thesis was supervised by [Prof. Christina Christara](http://www.cs.toronto.edu/~ccc/).  -->
 
 You can find my CV [here](files/CV_Mufan_Li.pdf).
 
@@ -21,12 +27,11 @@ You can find my CV [here](files/CV_Mufan_Li.pdf).
 
 I am broadly interested in studying theoretical properties
 of random algorithms in statistical learning.
-Most recently, I have been thinking a lot about
-- the complexity of sampling under functional inequalities for Langevin type algorithms,
-- scaling limits of large neural networks and its training dynamics.
+Most recently, I have been thinking a lot about **scaling limits** of large neural networks and its training dynamics.
 
 You can find a list of my research work
-[here](https://mufan-li.github.io/research/).
+[here](https://mufan-li.github.io/research/). 
+<!-- See also my [Google Scholar](https://scholar.google.com/citations?user=9dSlc_cAAAAJ&hl=en) and [Semantic Scholar](https://www.semanticscholar.org/author/Mufan-Bill-Li/49140558) pages.  -->
 
 # Blog
 

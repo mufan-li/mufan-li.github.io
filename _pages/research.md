@@ -25,7 +25,10 @@ Student Research Presentation Award at SSC 2021.
 **M. Li**, Mihai Nica, and Daniel M. Roy. \\
 *NeurIPS* 2022, **Oral**. 
 \[[arXiv](https://arxiv.org/abs/2206.02768)\] 
-\[[Proceeding](https://papers.nips.cc/paper_files/paper/2022/hash/45fc4a0da7e7f6fbabaabe2d20a441d1-Abstract-Conference.html)\]
+\[[Proceeding](https://papers.nips.cc/paper_files/paper/2022/hash/45fc4a0da7e7f6fbabaabe2d20a441d1-Abstract-Conference.html)\] 
+\[[Code](https://openreview.net/attachment?id=WG3vmsteqR_&name=supplementary_material)\] 
+\[[DL Foundations at UMD (Video)](https://youtu.be/LQw6XAJLL5s)\] 
+\[[OPTML++ at MIT (Video)](https://youtu.be/au_i6pgcJBU)\]
 
 [**Acceleration of Gossip Algorithms through the Euler-Poisson-Darboux Equation**](https://arxiv.org/abs/2202.10742) \\
 Rapha&euml;l Berthier and **M. Li** (alphabetical). \\
@@ -44,6 +47,7 @@ Sinho Chewi, Murat A. Erdogdu, **M. Li**, Ruoqi Shen, and Matthew Zhang (alphabe
 *NeurIPS* 2021. 
 \[[arXiv](https://arxiv.org/abs/2106.04013)\] 
 \[[Proceeding](https://proceedings.neurips.cc/paper/2021/hash/412758d043dd247bddea07c7ec558c31-Abstract.html)\] 
+\[[Code](https://openreview.net/attachment?id=-h99IwQN-f&name=supplementary_material)\] 
 
 
 [**Higher Order Generalization Error for First Order Discretization of Langevin Diffusion**]() \\
