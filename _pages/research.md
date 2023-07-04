@@ -8,6 +8,11 @@ author_profile: true
 
 See also my [Google Scholar](https://scholar.google.com/citations?user=9dSlc_cAAAAJ&hl=en) and [Semantic Scholar](https://www.semanticscholar.org/author/Mufan-Bill-Li/49140558) pages. 
 
+[**The Shaped Transformer: Attention Models in the Infinite Depth-and-Width Limit**]() \\
+Lorenzo Noci\*, Chuning Li\*, **M. Li**\*, Bobby He, Thomas Hofmann, Chris Maddison, Daniel M. Roy. \\
+*Preprint* 2023. 
+\[[arXiv](https://arxiv.org/abs/2306.17759)\] 
+
 [**Improved Discretization Analysis for Underdamped Langevin Monte Carlo**](https://arxiv.org/abs/2302.08049) \\
 Matthew Zhang, Sinho Chewi, **M. Li**, Krishnakumar Balasubramanian, and Murat A. Erdogdu. \\
 *COLT* 2023. 
@@ -56,7 +61,7 @@ Sinho Chewi, Murat A. Erdogdu, **M. Li**, Ruoqi Shen, and Matthew Zhang (alphabe
 \[[arXiv](https://arxiv.org/abs/2102.06229)\] 
 
 
-
+\* Equal Contribution. 
 
 
 
