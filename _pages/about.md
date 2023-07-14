@@ -14,8 +14,8 @@ I am an incoming Postdoctoral Research Associate at [Princeton ORFE](https://orf
 
 Previously, I received my PhD from the [Department of Statistical Sciences](http://www.utstat.utoronto.ca/) at the University of Toronto
 and the [Vector Institute](https://vectorinstitute.ai/),
-where my advisors were [Prof. Daniel Roy](http://danroy.org/)
-and [Prof. Murat Erdogdu](http://www.cs.toronto.edu/~erdogdu/).
+where my advisors were [Daniel Roy](http://danroy.org/)
+and [Murat Erdogdu](http://www.cs.toronto.edu/~erdogdu/).
 <!--  -->
 Prior to my PhD, I received my MSc in Statistics from the same department, and my BASc in [Engineering Science](http://engsci.utoronto.ca/) from University of Toronto. 
 
