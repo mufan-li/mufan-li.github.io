@@ -17,6 +17,7 @@ Lorenzo Noci\*, Chuning Li\*, **M. Li**\*, Bobby He, Thomas Hofmann, Chris Maddi
 Matthew Zhang, Sinho Chewi, **M. Li**, Krishnakumar Balasubramanian, and Murat A. Erdogdu. \\
 *COLT* 2023. 
 \[[arXiv](https://arxiv.org/abs/2302.08049)\]
+\[[Proceeding](https://proceedings.mlr.press/v195/zhang23a.html)\]
 
 [**Riemannian Langevin Algorithm for Solving Semidefinite Programs**](https://arxiv.org/abs/2010.11176)\\
 **M. Li** and Murat A. Erdogdu.
