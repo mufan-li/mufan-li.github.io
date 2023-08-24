@@ -23,8 +23,9 @@ Matthew Zhang, Sinho Chewi, **M. Li**, Krishnakumar Balasubramanian, and Murat A
 **M. Li** and Murat A. Erdogdu.
 \\
 <!--  -->
-To appear in *Bernoulli* 2023+. 
-\[[arXiv](https://arxiv.org/abs/2010.11176)\] \\
+*Bernoulli* 2023. 
+\[[arXiv](https://arxiv.org/abs/2010.11176)\] 
+\[[Journal](http://dx.doi.org/10.3150/22-BEJ1576)\] \\
 Student Research Presentation Award at SSC 2021. 
 
 [**The Neural Covariance SDE: Shaped Infinite-Depth-and-Width Networks at Initialization**](https://arxiv.org/abs/2206.02768) \\
