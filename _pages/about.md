@@ -10,7 +10,7 @@ redirect_from:
 
 # About
 
-I am an incoming Postdoctoral Research Associate at [Princeton ORFE](https://orfe.princeton.edu/) in Fall 2023, where I will be working with [Boris Hanin](https://boris-hanin.github.io/) on **deep learning theory**. 
+I am a Postdoctoral Research Associate at [Princeton ORFE](https://orfe.princeton.edu/), where I am working with [Boris Hanin](https://boris-hanin.github.io/) on **deep learning theory**. 
 
 Previously, I received my PhD from the [Department of Statistical Sciences](http://www.utstat.utoronto.ca/) at the University of Toronto
 and the [Vector Institute](https://vectorinstitute.ai/),
