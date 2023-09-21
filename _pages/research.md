@@ -10,7 +10,7 @@ See also my [Google Scholar](https://scholar.google.com/citations?user=9dSlc_cAA
 
 [**The Shaped Transformer: Attention Models in the Infinite Depth-and-Width Limit**]() \\
 Lorenzo Noci\*, Chuning Li\*, **M. Li**\*, Bobby He, Thomas Hofmann, Chris Maddison, Daniel M. Roy. \\
-*Preprint* 2023. 
+To appear at *NeurIPS* 2023. 
 \[[arXiv](https://arxiv.org/abs/2306.17759)\] 
 
 [**Improved Discretization Analysis for Underdamped Langevin Monte Carlo**](https://arxiv.org/abs/2302.08049) \\
