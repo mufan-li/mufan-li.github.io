@@ -8,20 +8,20 @@ author_profile: true
 
 See also my [Google Scholar](https://scholar.google.com/citations?user=9dSlc_cAAAAJ&hl=en) and [Semantic Scholar](https://www.semanticscholar.org/author/Mufan-Bill-Li/49140558) pages. 
 
+[**Depthwise Hyperparameter Transfer in Residual Networks: Dynamics and Scaling Limit**](https://arxiv.org/abs/2309.16620) \\
+Blake Bordelon, Lorenzo Noci, **M. Li**, Boris Hanin, Cengiz Pehlevan. \\
+To appear at *ICLR* 2024. 
+\[[arXiv](https://arxiv.org/abs/2309.16620)\]
+
 [**Differential Equation Scaling Limits of Shaped and Unshaped Neural Networks**](https://arxiv.org/abs/2310.12079) \\
 **M. Li** and Mihai Nica. \\
 *Preprint* 2023. 
 \[[arXiv](https://arxiv.org/abs/2310.12079)\]
 
-[**Depthwise Hyperparameter Transfer in Residual Networks: Dynamics and Scaling Limit**](https://arxiv.org/abs/2309.16620) \\
-Blake Bordelon, Lorenzo Noci, **M. Li**, Boris Hanin, Cengiz Pehlevan. \\
-*Preprint* 2023. 
-\[[arXiv](https://arxiv.org/abs/2309.16620)\]
-
 
 [**The Shaped Transformer: Attention Models in the Infinite Depth-and-Width Limit**](https://arxiv.org/abs/2306.17759) \\
 Lorenzo Noci\*, Chuning Li\*, **M. Li**\*, Bobby He, Thomas Hofmann, Chris Maddison, Daniel M. Roy. \\
-To appear at *NeurIPS* 2023. 
+*NeurIPS* 2023. 
 \[[arXiv](https://arxiv.org/abs/2306.17759)\] 
 
 [**Improved Discretization Analysis for Underdamped Langevin Monte Carlo**](https://arxiv.org/abs/2302.08049) \\
