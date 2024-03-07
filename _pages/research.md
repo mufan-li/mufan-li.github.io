@@ -9,12 +9,12 @@ author_profile: true
 See also my [Google Scholar](https://scholar.google.com/citations?user=9dSlc_cAAAAJ&hl=en) and [Semantic Scholar](https://www.semanticscholar.org/author/Mufan-Bill-Li/49140558) pages. 
 
 [**Sampling from the Mean-Field Stationary Distribution**](https://arxiv.org/abs/2402.07355) \\
-Yunbum Kook, Matthew S. Zhang, Sinho Chewi, Murat A. Erdogdu, **M. Li**. \\
+Yunbum Kook, Matthew S. Zhang, Sinho Chewi, Murat A. Erdogdu, and **M. Li**. \\
 *Preprint* 2024. 
 \[[arXiv](https://arxiv.org/abs/2402.07355)\]
 
 [**Depthwise Hyperparameter Transfer in Residual Networks: Dynamics and Scaling Limit**](https://arxiv.org/abs/2309.16620) \\
-Blake Bordelon, Lorenzo Noci, **M. Li**, Boris Hanin, Cengiz Pehlevan. \\
+Blake Bordelon, Lorenzo Noci, **M. Li**, Boris Hanin, and Cengiz Pehlevan. \\
 To appear at *ICLR* 2024. 
 \[[arXiv](https://arxiv.org/abs/2309.16620)\]
 
@@ -25,7 +25,7 @@ To appear at *ICLR* 2024.
 
 
 [**The Shaped Transformer: Attention Models in the Infinite Depth-and-Width Limit**](https://arxiv.org/abs/2306.17759) \\
-Lorenzo Noci\*, Chuning Li\*, **M. Li**\*, Bobby He, Thomas Hofmann, Chris Maddison, Daniel M. Roy. \\
+Lorenzo Noci\*, Chuning Li\*, **M. Li**\*, Bobby He, Thomas Hofmann, Chris Maddison, and Daniel M. Roy. \\
 *NeurIPS* 2023. 
 \[[arXiv](https://arxiv.org/abs/2306.17759)\] 
 \[[Proceeding](https://papers.nips.cc/paper_files/paper/2023/hash/aa31dc84098add7dd2ffdd20646f2043-Abstract-Conference.html)\]

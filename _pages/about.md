@@ -27,7 +27,7 @@ You can find my CV [here](files/CV_Mufan_Li.pdf).
 
 I am broadly interested in studying theoretical properties
 of random algorithms in statistical learning.
-Most recently, I have been thinking a lot about **scaling limits** of large neural networks and its training dynamics.
+Most recently, I have been thinking a lot about **scaling limits** of large neural networks and their training dynamics.
 
 You can find a list of my research work
 [here](https://mufan-li.github.io/research/). 
