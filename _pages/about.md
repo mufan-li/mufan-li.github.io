@@ -11,6 +11,8 @@ redirect_from:
 # About
 
 I am a Postdoctoral Research Associate at [Princeton ORFE](https://orfe.princeton.edu/), where I am working with [Boris Hanin](https://boris-hanin.github.io/) on **deep learning theory**. 
+<!--  -->
+In July 2025, I will be joining the University of Waterloo as an Assistant Professor in the [Department of Statistics and Actuarial Science](https://uwaterloo.ca/statistics-and-actuarial-science/). 
 
 Previously, I received my PhD from the [Department of Statistical Sciences](http://www.utstat.utoronto.ca/) at the University of Toronto
 and the [Vector Institute](https://vectorinstitute.ai/),
