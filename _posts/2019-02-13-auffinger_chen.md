@@ -49,10 +49,10 @@ Before we jump into the main results, we observe that existence of a minimizer i
 
 To complete the proof, it is sufficient to show $$\Phi(0,x)$$ is strictly convex in $$\zeta$$. In this section, we will use a stochastic representation to show convexity, which is the main difficulty of the problem. Readers unfamiliar with stochastic analysis can find a brief introduction in a [previous blog post](https://mufan-li.github.io/stone_ito/), in particular we will use [It&ocirc;'s Lemma](https://en.wikipedia.org/wiki/It%C3%B4%27s_lemma) in the upcoming proofs.
 
-We start by defining $$B_t := W_{\xi'(t)}$$, where $$\{W_t\}$$ is a standard Brownian motion. Let $$\{\mathcal{F}_t\}_{t\geq 0}$$ be $$\{W_t\}$$'s canonical filtration, and then we define a collection of processes
+We start by defining $$B_t := W_{\xi'(t)}$$, where $$\{W_t\}$$ is a standard Brownian motion. Let $$\{\mathscr{F}_t\}_{t\geq 0}$$ be $$\{W_t\}$$'s canonical filtration, and then we define a collection of processes
 
-$$ \mathcal{D} := \left\{ (u_t)_{0 \leq t \leq 1}
-    : u_t \text{ is adapted to } \mathcal{F}_t, 
+$$ \mathscr{D} := \left\{ (u_t)_{0 \leq t \leq 1}
+    : u_t \text{ is adapted to } \mathscr{F}_t, 
     |u_t| \leq 1
     \right\}.
 $$
@@ -66,7 +66,7 @@ For all $$\zeta$$ a probability distribution on $$[0,1]$$, we have the following
 
 $$
 \begin{split}
-    \Phi(0,x) = \max_{u \in \mathcal{D}} \bigg[
+    \Phi(0,x) = \max_{u \in \mathscr{D}} \bigg[
         \mathbb{E} & \Phi\left(1, 
         x + \int_0^1 \sigma^2(s) \, \zeta(s) \, u_s \, ds
         + \int_0^1 \sigma(s) \, dW_s
@@ -125,13 +125,13 @@ $$
 
 ---
 
-Since we can approximate any distributions in $$L^1$$ by discrete distributions, then we can extend the definition of $$\mathcal{P}(\cdot)$$ and $$\Phi(t,x)$$ to all distributions by continuity. Therefore it is sufficient to prove the result for only finitely supported distributions. 
+Since we can approximate any distributions in $$L^1$$ by discrete distributions, then we can extend the definition of $$\mathscr{P}(\cdot)$$ and $$\Phi(t,x)$$ to all distributions by continuity. Therefore it is sufficient to prove the result for only finitely supported distributions. 
 
 *proof (of the Auffinger-Chen representation):*
 The proof will be a straight forward application of It&ocirc;'s Lemma, 
 and the results follow almost directly from invoking the Parisi PDE. 
 
-We start with discrete $$\zeta$$, i.e $$\zeta$$ is a piecewise constant function. Let $$u \in \mathcal{D}$$, and define 
+We start with discrete $$\zeta$$, i.e $$\zeta$$ is a piecewise constant function. Let $$u \in \mathscr{D}$$, and define 
 
 $$ dX_s := \sigma^2(s) \, \zeta(s) \, u_s \, ds
     + \sigma(s) \, dW_s, 
@@ -210,7 +210,7 @@ $$u_s = \partial_x \Phi$$ almost surely.
 
 Observe this proves the inequality of the representation. 
 Since $$|\partial_x \Phi| \leq 1$$, 
-we have $$u_s = \partial_x \Phi \in \mathcal{D}$$, 
+we have $$u_s = \partial_x \Phi \in \mathscr{D}$$, 
 hence achieving the equality in the representation. 
 
 $$\tag*{$\Box$}$$ 
