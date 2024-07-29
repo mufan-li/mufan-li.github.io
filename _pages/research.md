@@ -10,15 +10,17 @@ See also my [Google Scholar](https://scholar.google.com/citations?user=9dSlc_cAA
 
 [**Analysis of Langevin Monte Carlo from Poincar&eacute; to Log-Sobolev**](https://arxiv.org/abs/2112.12662) \\
 Sinho Chewi, Murat A. Erdogdu, **M. Li**, Ruoqi Shen, and Matthew Zhang (alphabetical). \\
-To appear in *Foundations of Computational Mathematics*. 
+*Foundations of Computational Mathematics* (2024). 
 *COLT* 2022 Extended Abstract. 
 \[[arXiv](https://arxiv.org/abs/2112.12662)\]
+\[[Journal](https://doi.org/10.1007/s10208-024-09667-6)\]
 \[[Proceeding](https://proceedings.mlr.press/v178/chewi22a.html)\]
 
 [**Sampling from the Mean-Field Stationary Distribution**](https://arxiv.org/abs/2402.07355) \\
 Yunbum Kook, Matthew S. Zhang, Sinho Chewi, Murat A. Erdogdu, and **M. Li**. \\
-To appear at *COLT 2024*. 
+*COLT 2024*. 
 \[[arXiv](https://arxiv.org/abs/2402.07355)\]
+\[[Proceeding](https://proceedings.mlr.press/v247/kook24a.html)\]
 
 [**Differential Equation Scaling Limits of Shaped and Unshaped Neural Networks**](https://arxiv.org/abs/2310.12079) \\
 **M. Li** and Mihai Nica. \\
@@ -49,7 +51,7 @@ Matthew Zhang, Sinho Chewi, **M. Li**, Krishnakumar Balasubramanian, and Murat A
 **M. Li** and Murat A. Erdogdu.
 \\
 <!--  -->
-*Bernoulli* 2023. 
+*Bernoulli* (2023). 
 \[[arXiv](https://arxiv.org/abs/2010.11176)\] 
 \[[Journal](http://dx.doi.org/10.3150/22-BEJ1576)\] \\
 Student Research Presentation Award at SSC 2021. 
@@ -65,7 +67,7 @@ Student Research Presentation Award at SSC 2021.
 
 [**Acceleration of Gossip Algorithms through the Euler-Poisson-Darboux Equation**](https://arxiv.org/abs/2202.10742) \\
 Rapha&euml;l Berthier and **M. Li** (alphabetical). \\
-*IMA Journal of Applied Mathematics* 2022. 
+*IMA Journal of Applied Mathematics* (2022). 
 \[[arXiv](https://arxiv.org/abs/2202.10742)\]
 \[[Journal](https://academic.oup.com/imamat/advance-article/doi/10.1093/imamat/hxac029/6775269)\]
 
