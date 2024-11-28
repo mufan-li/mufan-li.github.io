@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Mufan (Bill) Li"
+title                    : "Mufan Li"
 title_separator          : "-"
-name                     : &name "Mufan (Bill) Li"
+name                     : &name "Mufan Li"
 description              : &description ""
 url                      : "https://mufan-li.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -82,6 +82,7 @@ analytics:
 author:
   name             : ""
   avatar           : "Profile3.jpg"
+  bluesky          : "mufan-li"
   bio              : # "Your biography for the left-hand sidebar"
   location         : # "Location"
   employer         :
