@@ -8,6 +8,12 @@ author_profile: true
 
 See also my [Google Scholar](https://scholar.google.com/citations?user=9dSlc_cAAAAJ&hl=en) and [Semantic Scholar](https://www.semanticscholar.org/author/Mufan-Bill-Li/49140558) pages. 
 
+
+[**Don't be lazy: CompleteP enables compute-efficient deep transformers**](https://www.arxiv.org/abs/2505.01618) \\
+Nolan Dey, Bin Claire Zhang, Lorenzo Noci, **M. Li**, Blake Bordelon, Shane Bergsma, Cengiz Pehlevan, Boris Hanin, and Joel Hestness \\
+*Preprint* (2025). 
+\[[arXiv](https://www.arxiv.org/abs/2505.01618)\]
+
 [**Analysis of Langevin Monte Carlo from Poincar&eacute; to Log-Sobolev**](https://arxiv.org/abs/2112.12662) \\
 Sinho Chewi, Murat A. Erdogdu, **M. Li**, Ruoqi Shen, and Matthew Zhang (alphabetical). \\
 *Foundations of Computational Mathematics* (2024). 
@@ -81,7 +87,7 @@ Rapha&euml;l Berthier and **M. Li** (alphabetical). \\
 
 [**Higher Order Generalization Error for First Order Discretization of Langevin Diffusion**]() \\
 **M. Li** and Maxime Gazeau. \\
-*Preprint* 2021. 
+*Preprint* (2021). 
 \[[arXiv](https://arxiv.org/abs/2102.06229)\] 
 
 
