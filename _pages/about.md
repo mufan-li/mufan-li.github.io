@@ -10,16 +10,15 @@ redirect_from:
 
 # About
 
-I am a DataX Postdoctoral Research Associate at Princeton [ORFE](https://orfe.princeton.edu/) and [CSML](https://csml.princeton.edu/), where I am working with [Boris Hanin](https://boris-hanin.github.io/) on **deep learning theory**. 
+I am an Assistant Professor in the [Department of Statistics and Actuarial Science](https://uwaterloo.ca/statistics-and-actuarial-science/) at the University of Waterloo, and a Faculty Affiliate at the [Vector Institute](https://vectorinstitute.ai/). 
 <!--  -->
-In July 2025, I will be joining the University of Waterloo as an Assistant Professor in the [Department of Statistics and Actuarial Science](https://uwaterloo.ca/statistics-and-actuarial-science/). 
-
-Previously, I received my PhD from the [Department of Statistical Sciences](http://www.utstat.utoronto.ca/) at the University of Toronto
-and the [Vector Institute](https://vectorinstitute.ai/),
+Previously I was a DataX Postdoctoral Research Associate at Princeton [ORFE](https://orfe.princeton.edu/) and [CSML](https://csml.princeton.edu/), where I worked with [Boris Hanin](https://boris-hanin.github.io/). 
+<!--  -->
+I received my PhD from the [Department of Statistical Sciences](http://www.utstat.utoronto.ca/) at the University of Toronto,
 where my advisors were [Daniel Roy](http://danroy.org/)
 and [Murat Erdogdu](http://www.cs.toronto.edu/~erdogdu/).
 <!--  -->
-Prior to my PhD, I received my MSc in Statistics from the same department, and my BASc in [Engineering Science](http://engsci.utoronto.ca/) from University of Toronto. 
+<!-- Prior to my PhD, I received my MSc in Statistics from the same department, and my BASc in [Engineering Science](http://engsci.utoronto.ca/) from University of Toronto.  -->
 
 <!-- Previously I was a Masters student in the same department, during which I worked with [Prof. Jeffrey Rosenthal](http://probability.ca/jeff/). For my undergraduate degree I studied [Engineering Science](http://engsci.utoronto.ca/) at University of Toronto, majoring in Electrical and Computer Engineering. My undergraduate thesis was supervised by [Prof. Christina Christara](http://www.cs.toronto.edu/~ccc/).  -->
 
@@ -27,8 +26,8 @@ You can find my CV [here](files/CV_Mufan_Li.pdf).
 
 # Research
 
-I am broadly interested in studying theoretical properties
-of random algorithms in statistical learning.
+I am broadly interested in **deep learning theory**. 
+<!--  -->
 Most recently, I have been thinking a lot about **scaling limits** of large neural networks and their training dynamics.
 
 You can find a list of my research work
