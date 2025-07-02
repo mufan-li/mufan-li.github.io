@@ -12,11 +12,10 @@ redirect_from:
 
 I am an Assistant Professor in the [Department of Statistics and Actuarial Science](https://uwaterloo.ca/statistics-and-actuarial-science/) at the University of Waterloo, and a Faculty Affiliate at the [Vector Institute](https://vectorinstitute.ai/). 
 <!--  -->
-Previously I was a DataX Postdoctoral Research Associate at Princeton [ORFE](https://orfe.princeton.edu/) and [CSML](https://csml.princeton.edu/), where I worked with [Boris Hanin](https://boris-hanin.github.io/). 
+
+Previously I was a DataX Postdoctoral Research Associate at Princeton University, where I worked with [Boris Hanin](https://boris-hanin.github.io/). 
 <!--  -->
-I received my PhD from the [Department of Statistical Sciences](http://www.utstat.utoronto.ca/) at the University of Toronto,
-where my advisors were [Daniel Roy](http://danroy.org/)
-and [Murat Erdogdu](http://www.cs.toronto.edu/~erdogdu/).
+I received my PhD from the Department of Statistical Sciences at the University of Toronto, where my advisors were [Daniel Roy](http://danroy.org/) and [Murat Erdogdu](http://www.cs.toronto.edu/~erdogdu/).
 <!--  -->
 <!-- Prior to my PhD, I received my MSc in Statistics from the same department, and my BASc in [Engineering Science](http://engsci.utoronto.ca/) from University of Toronto.  -->
 
