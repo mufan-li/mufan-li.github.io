@@ -30,7 +30,7 @@ I am broadly interested in **deep learning theory**.
 Most recently, I have been thinking a lot about **scaling limits** of large neural networks and their training dynamics.
 
 You can find a list of my research work
-[here](https://mufan-li.github.io/research/). 
+[here](/research/). 
 <!-- See also my [Google Scholar](https://scholar.google.com/citations?user=9dSlc_cAAAAJ&hl=en) and [Semantic Scholar](https://www.semanticscholar.org/author/Mufan-Bill-Li/49140558) pages.  -->
 
 # Blog
@@ -38,7 +38,7 @@ You can find a list of my research work
 I attempt to maintain a blog of interesting mathematics I encounter, 
 but does not necessarily fit into my research program.
 You can find the current list of my blog posts
-[here](https://mufan-li.github.io/blog-posts/).
+[here](/blog-posts/).
 
 <!-- Masters Research Project - Collaborative Filtering For Student Grade Analysis (2016) \[[Document](files/Mufan_Li_MSc_Report.pdf)\] \[[Code](https://github.com/mufan-li/sg)\]
 
