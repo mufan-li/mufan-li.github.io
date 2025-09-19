@@ -15,45 +15,45 @@ Yihe Dong, Lorenzo Noci, Mikhail Khodak, and **M. Li** \\
 
 [**Don't be lazy: CompleteP enables compute-efficient deep transformers**](https://www.arxiv.org/abs/2505.01618) \\
 Nolan Dey, Bin Claire Zhang, Lorenzo Noci, **M. Li**, Blake Bordelon, Shane Bergsma, Cengiz Pehlevan, Boris Hanin, and Joel Hestness \\
-*Preprint* (2025). 
+*NeurIPS* (2025). 
 \[[arXiv](https://www.arxiv.org/abs/2505.01618)\]
 
 [**Analysis of Langevin Monte Carlo from Poincar&eacute; to Log-Sobolev**](https://arxiv.org/abs/2112.12662) \\
 Sinho Chewi, Murat A. Erdogdu, **M. Li**, Ruoqi Shen, and Matthew Zhang (alphabetical). \\
 *Foundations of Computational Mathematics* (2024). 
-*COLT* 2022 Extended Abstract. 
+*COLT* (2022) Extended Abstract. 
 \[[arXiv](https://arxiv.org/abs/2112.12662)\]
 \[[Journal](https://doi.org/10.1007/s10208-024-09667-6)\]
 \[[Proceeding](https://proceedings.mlr.press/v178/chewi22a.html)\]
 
 [**Sampling from the Mean-Field Stationary Distribution**](https://arxiv.org/abs/2402.07355) \\
 Yunbum Kook, Matthew S. Zhang, Sinho Chewi, Murat A. Erdogdu, and **M. Li**. \\
-*COLT 2024*. 
+*COLT (2024)*. 
 \[[arXiv](https://arxiv.org/abs/2402.07355)\]
 \[[Proceeding](https://proceedings.mlr.press/v247/kook24a.html)\]
 
 [**Differential Equation Scaling Limits of Shaped and Unshaped Neural Networks**](https://arxiv.org/abs/2310.12079) \\
 **M. Li** and Mihai Nica. \\
-*TMLR* 2024. 
+*TMLR* (2024). 
 \[[arXiv](https://arxiv.org/abs/2310.12079)\]
 \[[OpenReview](https://openreview.net/forum?id=iRDwUXYsSJ)\]
 
 [**Depthwise Hyperparameter Transfer in Residual Networks: Dynamics and Scaling Limit**](https://arxiv.org/abs/2309.16620) \\
 Blake Bordelon, Lorenzo Noci, **M. Li**, Boris Hanin, and Cengiz Pehlevan. \\
-*ICLR* 2024. 
+*ICLR* (2024). 
 \[[arXiv](https://arxiv.org/abs/2309.16620)\]
 \[[OpenReview](https://openreview.net/forum?id=KZJehvRKGD)\]
 
 
 [**The Shaped Transformer: Attention Models in the Infinite Depth-and-Width Limit**](https://arxiv.org/abs/2306.17759) \\
 Lorenzo Noci\*, Chuning Li\*, **M. Li**\*, Bobby He, Thomas Hofmann, Chris Maddison, and Daniel M. Roy. \\
-*NeurIPS* 2023. 
+*NeurIPS* (2023). 
 \[[arXiv](https://arxiv.org/abs/2306.17759)\] 
 \[[Proceeding](https://papers.nips.cc/paper_files/paper/2023/hash/aa31dc84098add7dd2ffdd20646f2043-Abstract-Conference.html)\]
 
 [**Improved Discretization Analysis for Underdamped Langevin Monte Carlo**](https://arxiv.org/abs/2302.08049) \\
 Matthew Zhang, Sinho Chewi, **M. Li**, Krishnakumar Balasubramanian, and Murat A. Erdogdu. \\
-*COLT* 2023. 
+*COLT* (2023). 
 \[[arXiv](https://arxiv.org/abs/2302.08049)\]
 \[[Proceeding](https://proceedings.mlr.press/v195/zhang23a.html)\]
 
@@ -68,7 +68,7 @@ Student Research Presentation Award at SSC 2021.
 
 [**The Neural Covariance SDE: Shaped Infinite-Depth-and-Width Networks at Initialization**](https://arxiv.org/abs/2206.02768) \\
 **M. Li**, Mihai Nica, and Daniel M. Roy. \\
-*NeurIPS* 2022, **Oral**. 
+*NeurIPS* (2022), **Oral**. 
 \[[arXiv](https://arxiv.org/abs/2206.02768)\] 
 \[[Proceeding](https://papers.nips.cc/paper_files/paper/2022/hash/45fc4a0da7e7f6fbabaabe2d20a441d1-Abstract-Conference.html)\] 
 \[[Code](https://openreview.net/attachment?id=WG3vmsteqR_&name=supplementary_material)\] 
@@ -83,7 +83,7 @@ Rapha&euml;l Berthier and **M. Li** (alphabetical). \\
 
 [**The Future is Log-Gaussian: ResNets and Their Infinite-Depth-and-Width Limit at Initialization**](https://arxiv.org/abs/2106.04013) \\
 **M. Li**, Mihai Nica, and Daniel M. Roy. \\
-*NeurIPS* 2021. 
+*NeurIPS* (2021). 
 \[[arXiv](https://arxiv.org/abs/2106.04013)\] 
 \[[Proceeding](https://proceedings.neurips.cc/paper/2021/hash/412758d043dd247bddea07c7ec558c31-Abstract.html)\] 
 \[[Code](https://openreview.net/attachment?id=-h99IwQN-f&name=supplementary_material)\] 
