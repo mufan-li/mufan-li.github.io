@@ -39,3 +39,12 @@
 @import "font-awesome/brands";
 @import "magnific-popup/magnific-popup";
 @import "print";
+
+/* prevent display equations from overflowing on mobile */
+.katex-display, .MathJax_Display, mjx-container[jax="CHTML"][display="true"] {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+/* optional: slightly increase math size to match body text */
+mjx-container, .katex { font-size: 1.03em; }
