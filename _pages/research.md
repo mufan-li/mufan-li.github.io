@@ -8,6 +8,12 @@ author_profile: true
 
 See also my [Google Scholar](https://scholar.google.com/citations?user=9dSlc_cAAAAJ&hl=en) and [Semantic Scholar](https://www.semanticscholar.org/author/Mufan-Bill-Li/49140558) pages. 
 
+
+[**Geometric Dyson Brownian Motions and the Free Log-Normal Limit for a Non-Square Product of Random Matrices**](https://arxiv.org/abs/2606.30831) \\
+**M. Li**, Jaume de Dios Pont, Mihai Nica, and Daniel M. Roy \\
+*Preprint* (2026)
+\[[arXiv](https://arxiv.org/abs/2606.30831)\]
+
 [**Is Random Attention Sufficient for Sequence Modeling? Disentangling Trainable Components in the Transformer**](https://arxiv.org/abs/2506.01115) \\
 Yihe Dong, Lorenzo Noci, Mikhail Khodak, and **M. Li** \\
 *Preprint* (2025). 
