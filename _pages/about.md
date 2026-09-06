@@ -33,10 +33,17 @@ You can find a list of my research work
 [here](/research/). 
 <!-- See also my [Google Scholar](https://scholar.google.com/citations?user=9dSlc_cAAAAJ&hl=en) and [Semantic Scholar](https://www.semanticscholar.org/author/Mufan-Bill-Li/49140558) pages.  -->
 
+# Prospective Students
+
+I am recruiting graduate students with **strong foundations in real analysis and probability** for theoretical research. Before contacting me, please consult the lecture notes below for a sense of the mathematical background relevant to my current work.
+
+# Lecture Notes
+
+I am writing a set of [Lecture Notes](/files/Lecture%20Notes/nn_scaling.pdf) on Neural Network Scaling Limits. Comments and corrections are welcome.
+
 # Blog
 
-I attempt to maintain a blog of interesting mathematics I encounter, 
-but does not necessarily fit into my research program.
+I attempt to maintain a blog about interesting mathematics that I encounter but that does not necessarily fit into my research program.
 You can find the current list of my blog posts
 [here](/blog-posts/).
 

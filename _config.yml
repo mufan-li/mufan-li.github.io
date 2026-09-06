@@ -82,7 +82,7 @@ analytics:
 author:
   name             : ""
   avatar           : "Profile3.jpg"
-  bluesky          : "mufan-li"
+  bluesky          : # "mufan-li"
   bio              : # "Your biography for the left-hand sidebar"
   location         : # "Location"
   employer         :
