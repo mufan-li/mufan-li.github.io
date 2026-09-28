@@ -37,6 +37,8 @@ You can find a list of my research work
 
 I am recruiting graduate students with **strong foundations in real analysis and probability** for theoretical research. Before contacting me, please consult the lecture notes below for a sense of the mathematical background relevant to my current work.
 
+Please follow the application instructions from my department's [graduate admissions page](https://uwaterloo.ca/statistics-and-actuarial-science/graduate-studies/applying). You can also express interest through Vector's [Graduate Student Program](https://vectorinstitute.ai/research-talent/students/graduate-student-program/).
+
 # Lecture Notes
 
 I am writing a set of [Lecture Notes](/files/Lecture%20Notes/nn_scaling.pdf) on Neural Network Scaling Limits. Comments and corrections are welcome.
